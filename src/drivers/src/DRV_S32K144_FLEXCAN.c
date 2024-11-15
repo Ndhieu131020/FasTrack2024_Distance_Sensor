@@ -501,49 +501,7 @@ void DRV_FLEXCAN_ReceiveInt(uint8_t instance, uint8_t mbIdx, flexcan_mb_t *data)
     handle->mbs[mbIdx]->data[1U] = (base->RAMn[mbIdx * MESSAGE_BUFFER_SIZE + 3U]);
     /* Unlock MB by reading Free Running Timer*/
     (void)base->TIMER;
-    /*Clear flag*/
-    // DRV_FLEXCAN_ClearMbIntFlag(instance, mbIdx);
 }
-
-// static void FLEXCAN_Mb_IRQHandler(uint8_t instance)
-// {
-//     flexcan_handle_t *handle = g_flexcanHandle[instance];
-//     FLEXCAN_Type *base = g_flexcanBase[instance];
-//     uint8_t flexcanMaxMBNum = FLEXCAN_GetMaxMbNum(instance);
-//     uint8_t mbIdx = 0U;
-//     uint8_t flag = 0U;
-//     flag = DRV_FLEXCAN_GetMbIntFlag(instance, mbIdx);
-//     while ((flag & 1U) == 0U)
-//     {
-//         mbIdx++;
-//         if (mbIdx >= flexcanMaxMBNum)
-//         {
-//             break;
-//         }
-//         flag = DRV_FLEXCAN_GetMbIntFlag(instance, mbIdx);
-//     }
-//     if (flag != 0U)
-//     {
-//         /* Lock MB by reading it */
-//         volatile uint32_t *flexcan_mb = &(base->RAMn[mbIdx * MESSAGE_BUFFER_SIZE]);
-//         (void)*flexcan_mb;
-//         /*Read content of the mail box*/
-//         handle->mbs[mbIdx]->cs = base->RAMn[mbIdx * MESSAGE_BUFFER_SIZE + 0U];
-//         handle->mbs[mbIdx]->msgId = ((base->RAMn[mbIdx * MESSAGE_BUFFER_SIZE + 1U] & FLEXCAN_MB_ID_STD_MASK) >> FLEXCAN_MB_ID_STD_SHIFT);
-//         handle->mbs[mbIdx]->dataLength = ((handle->mbs[mbIdx]->cs & FLEXCAN_MB_DLC_MASK) >> FLEXCAN_MB_DLC_SHIFT);
-//         handle->mbs[mbIdx]->data[0U] = (base->RAMn[mbIdx * MESSAGE_BUFFER_SIZE + 2U]);
-//         handle->mbs[mbIdx]->data[1U] = (base->RAMn[mbIdx * MESSAGE_BUFFER_SIZE + 3U]);
-//         /* Unlock MB by reading Free Running Timer*/
-//         (void)base->TIMER;
-//         /*Clear flag*/
-//         // FLEXCAN_ClearMbIntFlag(instance, mbIdx);
-//         /* Callback */
-//         if (handle->mb_callback != NULL)
-//         {
-//             handle->mb_callback();
-//         }
-//     }
-// }
 
 static void FLEXCAN_Mb_IRQHandler(uint8_t instance)
 {

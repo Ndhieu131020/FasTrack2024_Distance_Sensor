@@ -13,8 +13,8 @@
 /*******************************************************************************
  * Definition
  ******************************************************************************/
-
-#define INTERRUPT_PERIOD_MS    (100U / 1000U)
+#define RELOAD_PERIOD_MS   100u
+#define MS_TO_SECOND       1000u
 
 /*******************************************************************************
  * Prototypes
@@ -50,7 +50,7 @@ void MID_Timer_Init(void)
 
     if (LPIT_Freq != 0U)
     {
-        reloadValue = LPIT_Freq * INTERRUPT_PERIOD_MS;
+        reloadValue = (LPIT_Freq * RELOAD_PERIOD_MS) / MS_TO_SECOND;
     }
     else
     {

@@ -33,6 +33,6 @@ void MID_TurnOnLed(led_color_t ledtype);
 
 void MID_TurnOffLed(led_color_t ledtype);
 
-void DRV_TOGGLE_LED(led_color_t ledtype);
+void MID_ToggleLed(led_color_t ledtype);
 
 #endif /* MID_GPIO_INTERFACE_H_ */

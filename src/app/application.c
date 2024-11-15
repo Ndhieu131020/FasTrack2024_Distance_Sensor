@@ -47,6 +47,7 @@ int main(void)
     MID_CAN_Init();
     MID_Sensor_Init();
     MID_Timer_Init();
+    MID_Led_Init();
 
     MID_Timer_RegisterNotificationCallback(&App_TriggerSensor_Notification);
     MID_ADC_RegisterNotificationCallback(&App_Sensor_Notification);

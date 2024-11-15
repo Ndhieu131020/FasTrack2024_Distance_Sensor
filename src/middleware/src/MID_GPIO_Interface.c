@@ -45,7 +45,7 @@ void MID_Led_Init(void)
     DRV_GPIO_SetPinDirection(GET_PORT((uint8_t)RED_LED_PIN), GET_PIN_NUM((uint8_t)RED_LED_PIN), Output_Direction);
     DRV_GPIO_SetPinDirection(GET_PORT((uint8_t)GREEN_LED_PIN), GET_PIN_NUM((uint8_t)GREEN_LED_PIN), Output_Direction);
     DRV_GPIO_SetPinDirection(GET_PORT((uint8_t)BLUE_LED_PIN), GET_PIN_NUM((uint8_t)BLUE_LED_PIN), Output_Direction);
-    
+
     DRV_GPIO_SetPins(GET_PORT((uint8_t)RED_LED_PIN), GET_PIN_NUM((uint8_t)RED_LED_PIN));
     DRV_GPIO_SetPins(GET_PORT((uint8_t)GREEN_LED_PIN), GET_PIN_NUM((uint8_t)GREEN_LED_PIN));
     DRV_GPIO_SetPins(GET_PORT((uint8_t)BLUE_LED_PIN), GET_PIN_NUM((uint8_t)BLUE_LED_PIN));
@@ -108,7 +108,7 @@ void MID_TurnOffLed(led_color_t ledtype)
 }
 
 /* Toggle the LED pin */
-void DRV_TOGGLE_LED(led_color_t ledtype)
+void MID_ToggleLed(led_color_t ledtype)
 {
     virtual_pin_id_t PinID     = RED_LED_PIN;
     uint8_t          PortType  = 0U;
