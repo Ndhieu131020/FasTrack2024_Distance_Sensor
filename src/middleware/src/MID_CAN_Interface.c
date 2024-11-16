@@ -34,14 +34,14 @@ static void FLEXCAN_Rx_Mb_Init(void);
  ******************************************************************************/
 static flexcan_handle_t handle;
 
-static flexcan_mb_t Message;
+static flexcan_mb_t Transmit_Message;
 
 static flexcan_mb_t Receive_Message;
 
-flexcan_mb_config_t mbCfg = 
+flexcan_mb_config_t mbCfg =
 {
     .idType = FLEXCAN_MB_ID_STD,
-    .dataLength = 8U
+    .dataLength = 4U
 };
 
 /*******************************************************************************
@@ -147,11 +147,11 @@ void MID_CAN_ReceiveMessage(uint8_t mbIdx, Data_Typedef *data)
     data->Data = Receive_Message.data[0];
 }
 
-void MID_CAN_SendCANMessage(uint8_t Tx_Mb, int16_t Data)
+void MID_CAN_SendCANMessage(uint8_t Tx_Mb, uint16_t Data)
 {
-    Message.data[0] = Data;
+    Transmit_Message.data[0] = Data;
 
-    DRV_FLEXCAN_Transmit(FLEXCAN_INSTANCE, Tx_Mb, &Message);
+    DRV_FLEXCAN_Transmit(FLEXCAN_INSTANCE, Tx_Mb, &Transmit_Message);
 }
 
 void MID_ClearMessageCommingEvent(uint8_t Mailbox)
