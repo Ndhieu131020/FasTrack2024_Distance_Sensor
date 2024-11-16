@@ -1,0 +1,14 @@
+-DCPU_S32K144HFT0VLLT
+-I"D:/Git/Mock_FasTrack_2024/FasTrack_2024_Distance_Node/include"
+-I"D:/Git/Mock_FasTrack_2024/FasTrack_2024_Distance_Node/src"
+-I"D:/Git/Mock_FasTrack_2024/FasTrack_2024_Distance_Node/src/drivers/inc"
+-I"D:/Git/Mock_FasTrack_2024/FasTrack_2024_Distance_Node/src/middleware/inc"
+-O0
+-g3
+-Wall
+-c
+-fmessage-length=0
+-ffunction-sections
+-fdata-sections
+-mcpu=cortex-m4
+-specs=nosys.specs

@@ -1,0 +1,7 @@
+-c
+-I"D:/Git/Mock_FasTrack_2024/FasTrack_2024_Distance_Node/include"
+-x assembler-with-cpp
+-DSTART_FROM_FLASH
+-g3
+-mcpu=cortex-m4
+-specs=nosys.specs

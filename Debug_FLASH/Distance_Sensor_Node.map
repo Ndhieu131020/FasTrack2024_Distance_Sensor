@@ -1,0 +1,1604 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+                              c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (exit)
+c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+                              c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+                              c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (__libc_init_array)
+c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memcpy-stub.o)
+                              ./src/drivers/src/DRV_S32K144_MCU.o (memcpy)
+c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+                              c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (memset)
+c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+                              c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+                              c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+                              c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o) (atexit)
+c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+                              c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+                              c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o) (_exit)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crti.o
+ .data          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crti.o
+ .bss           0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crti.o
+ .data          0x00000000        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
+ .data          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .bss           0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/startup.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .rodata.s_vectors
+                0x00000000        0x4 ./Project_Settings/Startup_Code/startup.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0xc ./Project_Settings/Startup_Code/system_S32K144.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/system_S32K144.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/system_S32K144.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/system_S32K144.o
+ .data.SystemCoreClock
+                0x00000000        0x4 ./Project_Settings/Startup_Code/system_S32K144.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xf0 ./Project_Settings/Startup_Code/system_S32K144.o
+ .text.SystemSoftwareReset
+                0x00000000       0x3e ./Project_Settings/Startup_Code/system_S32K144.o
+ .rodata.fircFreq.0
+                0x00000000        0x4 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000      0xa60 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x10 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x7a ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x22 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x8e ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x51 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000      0x103 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x6a ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000      0x1df ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000     0x1707 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x22 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0xc ./src/app/application.o
+ .group         0x00000000        0xc ./src/app/application.o
+ .group         0x00000000        0xc ./src/app/application.o
+ .group         0x00000000        0xc ./src/app/application.o
+ .group         0x00000000        0xc ./src/app/application.o
+ .group         0x00000000        0xc ./src/app/application.o
+ .group         0x00000000        0xc ./src/app/application.o
+ .group         0x00000000        0xc ./src/app/application.o
+ .group         0x00000000        0xc ./src/app/application.o
+ .group         0x00000000        0xc ./src/app/application.o
+ .text          0x00000000        0x0 ./src/app/application.o
+ .data          0x00000000        0x0 ./src/app/application.o
+ .bss           0x00000000        0x0 ./src/app/application.o
+ .debug_macro   0x00000000      0xa60 ./src/app/application.o
+ .debug_macro   0x00000000       0x22 ./src/app/application.o
+ .debug_macro   0x00000000       0x8e ./src/app/application.o
+ .debug_macro   0x00000000       0x51 ./src/app/application.o
+ .debug_macro   0x00000000      0x103 ./src/app/application.o
+ .debug_macro   0x00000000       0x6a ./src/app/application.o
+ .debug_macro   0x00000000      0x1df ./src/app/application.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_ADC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_ADC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_ADC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_ADC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_ADC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_ADC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_ADC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_ADC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_ADC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_ADC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_ADC.o
+ .text          0x00000000        0x0 ./src/drivers/src/DRV_S32K144_ADC.o
+ .data          0x00000000        0x0 ./src/drivers/src/DRV_S32K144_ADC.o
+ .bss           0x00000000        0x0 ./src/drivers/src/DRV_S32K144_ADC.o
+ .text.DRV_ADC_GetConvCompleteFlag
+                0x00000000       0x44 ./src/drivers/src/DRV_S32K144_ADC.o
+ .text.DRV_ADC_GetChannelResult
+                0x00000000       0x34 ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_macro   0x00000000      0xa60 ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_macro   0x00000000       0x16 ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_macro   0x00000000       0x22 ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_macro   0x00000000       0x8e ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_macro   0x00000000       0x51 ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_macro   0x00000000      0x103 ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_macro   0x00000000       0x6a ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_macro   0x00000000      0x1df ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_macro   0x00000000     0xc353 ./src/drivers/src/DRV_S32K144_ADC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text          0x00000000        0x0 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .data          0x00000000        0x0 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .bss           0x00000000        0x0 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.DRV_FLEXCAN_DisableMbInt
+                0x00000000       0x40 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.DRV_FLEXCAN_Receive
+                0x00000000       0xc8 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_macro   0x00000000      0xa60 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_macro   0x00000000       0x16 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_macro   0x00000000       0x22 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_macro   0x00000000       0x8e ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_macro   0x00000000       0x51 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_macro   0x00000000      0x103 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_macro   0x00000000       0x6a ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_macro   0x00000000      0x1df ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_macro   0x00000000     0xc353 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_GPIO.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_GPIO.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_GPIO.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_GPIO.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_GPIO.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_GPIO.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_GPIO.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_GPIO.o
+ .text          0x00000000        0x0 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .data          0x00000000        0x0 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .bss           0x00000000        0x0 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .text.DRV_GPIO_ReadPins
+                0x00000000       0x38 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .text.DRV_GPIO_WritePins
+                0x00000000       0x58 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .text.DRV_GPIO_TogglePins
+                0x00000000       0x3c ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_macro   0x00000000      0xa60 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_macro   0x00000000       0x22 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_macro   0x00000000       0x8e ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_macro   0x00000000       0x51 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_macro   0x00000000      0x103 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_macro   0x00000000       0x6a ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_macro   0x00000000      0x1df ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_macro   0x00000000     0xc365 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_LPIT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_LPIT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_LPIT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_LPIT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_LPIT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_LPIT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_LPIT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_LPIT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_LPIT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_LPIT.o
+ .text          0x00000000        0x0 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .data          0x00000000        0x0 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .bss           0x00000000        0x0 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .text.DRV_LPIT_DisableModule
+                0x00000000       0x30 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .text.DRV_LPIT_ClearInterruptFlagTimerChannels
+                0x00000000       0x3c ./src/drivers/src/DRV_S32K144_LPIT.o
+ .text.DRV_LPIT_GetCurrentTimerCount
+                0x00000000       0x38 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_macro   0x00000000      0xa60 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_macro   0x00000000       0x16 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_macro   0x00000000       0x22 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_macro   0x00000000       0x8e ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_macro   0x00000000       0x51 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_macro   0x00000000      0x103 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_macro   0x00000000       0x6a ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_macro   0x00000000      0x1df ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_macro   0x00000000     0xc353 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_macro   0x00000000      0x174 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_MCU.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_MCU.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_MCU.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_MCU.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_MCU.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_MCU.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_MCU.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_MCU.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_MCU.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_MCU.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_MCU.o
+ .text          0x00000000        0x0 ./src/drivers/src/DRV_S32K144_MCU.o
+ .data          0x00000000        0x0 ./src/drivers/src/DRV_S32K144_MCU.o
+ .bss           0x00000000        0x0 ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_macro   0x00000000      0xa60 ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_macro   0x00000000       0x22 ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_macro   0x00000000       0x8e ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_macro   0x00000000       0x51 ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_macro   0x00000000      0x103 ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_macro   0x00000000       0x6a ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_macro   0x00000000      0x1df ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_macro   0x00000000       0x22 ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_macro   0x00000000      0x174 ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_macro   0x00000000     0xc365 ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_macro   0x00000000     0x1707 ./src/drivers/src/DRV_S32K144_MCU.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_NVIC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_NVIC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_NVIC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_NVIC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_NVIC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_NVIC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_NVIC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_NVIC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_NVIC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_NVIC.o
+ .text          0x00000000        0x0 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .data          0x00000000        0x0 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .bss           0x00000000        0x0 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .text.NVIC_DisbleIRQ
+                0x00000000       0x5c ./src/drivers/src/DRV_S32K144_NVIC.o
+ .text.NVIC_SetPendingIRQ
+                0x00000000       0x60 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .text.NVIC_ClearPendingIRQ
+                0x00000000       0x60 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .text.NVIC_GetPendingIRQ
+                0x00000000       0x5c ./src/drivers/src/DRV_S32K144_NVIC.o
+ .text.NVIC_SetPriority
+                0x00000000       0x2c ./src/drivers/src/DRV_S32K144_NVIC.o
+ .text.NVIC_GetPriority
+                0x00000000       0x2c ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_macro   0x00000000      0xa60 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_macro   0x00000000       0x16 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_macro   0x00000000       0x22 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_macro   0x00000000       0x8e ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_macro   0x00000000       0x51 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_macro   0x00000000      0x103 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_macro   0x00000000       0x6a ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_macro   0x00000000      0x1df ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_macro   0x00000000     0xc353 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_PORT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_PORT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_PORT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_PORT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_PORT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_PORT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_PORT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_PORT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_PORT.o
+ .group         0x00000000        0xc ./src/drivers/src/DRV_S32K144_PORT.o
+ .text          0x00000000        0x0 ./src/drivers/src/DRV_S32K144_PORT.o
+ .data          0x00000000        0x0 ./src/drivers/src/DRV_S32K144_PORT.o
+ .bss           0x00000000        0x0 ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_macro   0x00000000      0xa60 ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_macro   0x00000000       0x16 ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_macro   0x00000000       0x22 ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_macro   0x00000000       0x8e ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_macro   0x00000000       0x51 ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_macro   0x00000000      0x103 ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_macro   0x00000000       0x6a ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_macro   0x00000000      0x1df ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_macro   0x00000000     0xc353 ./src/drivers/src/DRV_S32K144_PORT.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_CAN_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_CAN_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_CAN_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_CAN_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_CAN_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_CAN_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_CAN_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_CAN_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_CAN_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_CAN_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_CAN_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_CAN_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_CAN_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_CAN_Interface.o
+ .text          0x00000000        0x0 ./src/middleware/src/MID_CAN_Interface.o
+ .data          0x00000000        0x0 ./src/middleware/src/MID_CAN_Interface.o
+ .bss           0x00000000        0x0 ./src/middleware/src/MID_CAN_Interface.o
+ .text.MID_CAN_MailboxInit
+                0x00000000       0x10 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x00000000      0xa60 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x00000000       0x16 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x00000000       0x22 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x00000000       0x8e ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x00000000       0x51 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x00000000      0x103 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x00000000       0x6a ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x00000000      0x1df ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x00000000     0xc353 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x00000000       0x10 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x00000000     0x1707 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x00000000       0x22 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x00000000       0x52 ./src/middleware/src/MID_CAN_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Clock_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Clock_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Clock_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Clock_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Clock_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Clock_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Clock_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Clock_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Clock_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Clock_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Clock_Interface.o
+ .text          0x00000000        0x0 ./src/middleware/src/MID_Clock_Interface.o
+ .data          0x00000000        0x0 ./src/middleware/src/MID_Clock_Interface.o
+ .bss           0x00000000        0x0 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_macro   0x00000000      0xa60 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_macro   0x00000000       0x16 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_macro   0x00000000       0x22 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_macro   0x00000000       0x8e ./src/middleware/src/MID_Clock_Interface.o
+ .debug_macro   0x00000000       0x51 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_macro   0x00000000      0x103 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_macro   0x00000000       0x6a ./src/middleware/src/MID_Clock_Interface.o
+ .debug_macro   0x00000000      0x1df ./src/middleware/src/MID_Clock_Interface.o
+ .debug_macro   0x00000000     0xc353 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_macro   0x00000000     0x1707 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_macro   0x00000000       0x22 ./src/middleware/src/MID_Clock_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_GPIO_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_GPIO_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_GPIO_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_GPIO_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_GPIO_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_GPIO_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_GPIO_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_GPIO_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_GPIO_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_GPIO_Interface.o
+ .text          0x00000000        0x0 ./src/middleware/src/MID_GPIO_Interface.o
+ .data          0x00000000        0x0 ./src/middleware/src/MID_GPIO_Interface.o
+ .bss           0x00000000        0x0 ./src/middleware/src/MID_GPIO_Interface.o
+ .text.MID_TurnOffLed
+                0x00000000       0x60 ./src/middleware/src/MID_GPIO_Interface.o
+ .text.MID_ToggleLed
+                0x00000000       0x60 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_macro   0x00000000      0xa60 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_macro   0x00000000       0x16 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_macro   0x00000000       0x22 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_macro   0x00000000       0x8e ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_macro   0x00000000       0x51 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_macro   0x00000000      0x103 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_macro   0x00000000       0x6a ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_macro   0x00000000      0x1df ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_macro   0x00000000     0xc353 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_macro   0x00000000       0x10 ./src/middleware/src/MID_GPIO_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Notification_Manager.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Notification_Manager.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Notification_Manager.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Notification_Manager.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Notification_Manager.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Notification_Manager.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Notification_Manager.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Notification_Manager.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Notification_Manager.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Notification_Manager.o
+ .text          0x00000000        0x0 ./src/middleware/src/MID_Notification_Manager.o
+ .data          0x00000000        0x0 ./src/middleware/src/MID_Notification_Manager.o
+ .bss           0x00000000        0x0 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_macro   0x00000000      0xa60 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_macro   0x00000000       0x16 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_macro   0x00000000       0x22 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_macro   0x00000000       0x8e ./src/middleware/src/MID_Notification_Manager.o
+ .debug_macro   0x00000000       0x51 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_macro   0x00000000      0x103 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_macro   0x00000000       0x6a ./src/middleware/src/MID_Notification_Manager.o
+ .debug_macro   0x00000000      0x1df ./src/middleware/src/MID_Notification_Manager.o
+ .debug_macro   0x00000000     0xc353 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_macro   0x00000000       0x34 ./src/middleware/src/MID_Notification_Manager.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Sensor_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Sensor_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Sensor_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Sensor_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Sensor_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Sensor_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Sensor_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Sensor_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Sensor_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Sensor_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Sensor_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Sensor_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Sensor_Interface.o
+ .text          0x00000000        0x0 ./src/middleware/src/MID_Sensor_Interface.o
+ .data          0x00000000        0x0 ./src/middleware/src/MID_Sensor_Interface.o
+ .bss           0x00000000        0x0 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_macro   0x00000000      0xa60 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_macro   0x00000000       0x16 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_macro   0x00000000       0x22 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_macro   0x00000000       0x8e ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_macro   0x00000000       0x51 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_macro   0x00000000      0x103 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_macro   0x00000000       0x6a ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_macro   0x00000000      0x1df ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_macro   0x00000000     0xc353 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_macro   0x00000000      0x174 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_macro   0x00000000       0xbe ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_macro   0x00000000       0x22 ./src/middleware/src/MID_Sensor_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Timer_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Timer_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Timer_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Timer_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Timer_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Timer_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Timer_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Timer_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Timer_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Timer_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Timer_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Timer_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Timer_Interface.o
+ .group         0x00000000        0xc ./src/middleware/src/MID_Timer_Interface.o
+ .text          0x00000000        0x0 ./src/middleware/src/MID_Timer_Interface.o
+ .data          0x00000000        0x0 ./src/middleware/src/MID_Timer_Interface.o
+ .bss           0x00000000        0x0 ./src/middleware/src/MID_Timer_Interface.o
+ .text.MID_Timer_StopTimer
+                0x00000000       0x10 ./src/middleware/src/MID_Timer_Interface.o
+ .debug_macro   0x00000000      0xa60 ./src/middleware/src/MID_Timer_Interface.o
+ .debug_macro   0x00000000       0x16 ./src/middleware/src/MID_Timer_Interface.o
+ .debug_macro   0x00000000       0x22 ./src/middleware/src/MID_Timer_Interface.o
+ .debug_macro   0x00000000       0x8e ./src/middleware/src/MID_Timer_Interface.o
+ .debug_macro   0x00000000       0x51 ./src/middleware/src/MID_Timer_Interface.o
+ .debug_macro   0x00000000      0x103 ./src/middleware/src/MID_Timer_Interface.o
+ .debug_macro   0x00000000       0x6a ./src/middleware/src/MID_Timer_Interface.o
+ .debug_macro   0x00000000      0x1df ./src/middleware/src/MID_Timer_Interface.o
+ .debug_macro   0x00000000     0xc353 ./src/middleware/src/MID_Timer_Interface.o
+ .debug_macro   0x00000000      0x174 ./src/middleware/src/MID_Timer_Interface.o
+ .debug_macro   0x00000000       0xbe ./src/middleware/src/MID_Timer_Interface.o
+ .debug_macro   0x00000000     0x1707 ./src/middleware/src/MID_Timer_Interface.o
+ .debug_macro   0x00000000       0x22 ./src/middleware/src/MID_Timer_Interface.o
+ .debug_macro   0x00000000       0x10 ./src/middleware/src/MID_Timer_Interface.o
+ .text          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+ .text          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+ .text          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtend.o
+ .data          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtend.o
+ .bss           0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtend.o
+ .eh_frame      0x00000000        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtend.o
+ .text          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtn.o
+ .data          0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtn.o
+ .bss           0x00000000        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000400         xr
+m_flash_config   0x00000400         0x00000010         xr
+m_text           0x00000410         0x0007fbf0         xr
+m_data           0x1fff8000         0x00008000         rw
+m_data_2         0x20000000         0x00007000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crti.o
+LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
+LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+LOAD ./Project_Settings/Startup_Code/startup.o
+LOAD ./Project_Settings/Startup_Code/startup_S32K144.o
+LOAD ./Project_Settings/Startup_Code/system_S32K144.o
+LOAD ./src/app/application.o
+LOAD ./src/drivers/src/DRV_S32K144_ADC.o
+LOAD ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+LOAD ./src/drivers/src/DRV_S32K144_GPIO.o
+LOAD ./src/drivers/src/DRV_S32K144_LPIT.o
+LOAD ./src/drivers/src/DRV_S32K144_MCU.o
+LOAD ./src/drivers/src/DRV_S32K144_NVIC.o
+LOAD ./src/drivers/src/DRV_S32K144_PORT.o
+LOAD ./src/middleware/src/MID_CAN_Interface.o
+LOAD ./src/middleware/src/MID_Clock_Interface.o
+LOAD ./src/middleware/src/MID_GPIO_Interface.o
+LOAD ./src/middleware/src/MID_Notification_Manager.o
+LOAD ./src/middleware/src/MID_Sensor_Interface.o
+LOAD ./src/middleware/src/MID_Timer_Interface.o
+START GROUP
+LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp\libgcc.a
+LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a
+END GROUP
+START GROUP
+LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp\libgcc.a
+LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a
+LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a
+END GROUP
+LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtend.o
+LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtn.o
+                0x00000400                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
+                0x00000400                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+                0x00000400                M_VECTOR_RAM_SIZE = DEFINED (__flash_vector_table__)?0x0:0x400
+
+.interrupts     0x00000000      0x400
+                0x00000000                __VECTOR_TABLE = .
+                0x00000000                __interrupts_start__ = .
+                0x00000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x400 ./Project_Settings/Startup_Code/startup_S32K144.o
+                0x00000000                __isr_vector
+                0x00000400                __interrupts_end__ = .
+                0x00000400                . = ALIGN (0x4)
+
+.flash_config   0x00000400       0x10
+                0x00000400                . = ALIGN (0x4)
+ *(.FlashConfig)
+ .FlashConfig   0x00000400       0x10 ./Project_Settings/Startup_Code/startup_S32K144.o
+                0x00000410                . = ALIGN (0x4)
+
+.text           0x00000410     0x3158
+                0x00000410                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000410       0x88 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
+ .text          0x00000498       0x7c c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+                0x00000498                _stack_init
+                0x000004a0                _start
+                0x000004a0                _mainCRTStartup
+ .text          0x00000514       0x6c ./Project_Settings/Startup_Code/startup_S32K144.o
+                0x00000514                Reset_Handler
+                0x0000057c                DebugMon_Handler
+                0x0000057c                Reserved88_IRQHandler
+                0x0000057c                HardFault_Handler
+                0x0000057c                Reserved86_IRQHandler
+                0x0000057c                Reserved103_IRQHandler
+                0x0000057c                SysTick_Handler
+                0x0000057c                FTM2_Ovf_Reload_IRQHandler
+                0x0000057c                Reserved50_IRQHandler
+                0x0000057c                FTFC_Fault_IRQHandler
+                0x0000057c                FTM0_Ch6_Ch7_IRQHandler
+                0x0000057c                Reserved114_IRQHandler
+                0x0000057c                PendSV_Handler
+                0x0000057c                NMI_Handler
+                0x0000057c                Reserved89_IRQHandler
+                0x0000057c                ERM_double_fault_IRQHandler
+                0x0000057c                DMA2_IRQHandler
+                0x0000057c                Reserved59_IRQHandler
+                0x0000057c                Reserved99_IRQHandler
+                0x0000057c                FTM3_Ch6_Ch7_IRQHandler
+                0x0000057c                Reserved92_IRQHandler
+                0x0000057c                FTM0_Ch4_Ch5_IRQHandler
+                0x0000057c                CAN1_Error_IRQHandler
+                0x0000057c                FTM3_Ch0_Ch1_IRQHandler
+                0x0000057c                SWI_IRQHandler
+                0x0000057c                FTM2_Ch4_Ch5_IRQHandler
+                0x0000057c                UsageFault_Handler
+                0x0000057c                FTM0_Ovf_Reload_IRQHandler
+                0x0000057c                DefaultISR
+                0x0000057c                DMA9_IRQHandler
+                0x0000057c                Reserved58_IRQHandler
+                0x0000057c                FTM1_Ch2_Ch3_IRQHandler
+                0x0000057c                DMA14_IRQHandler
+                0x0000057c                Reserved82_IRQHandler
+                0x0000057c                LPI2C0_Slave_IRQHandler
+                0x0000057c                Reserved71_IRQHandler
+                0x0000057c                PORTD_IRQHandler
+                0x0000057c                Reserved69_IRQHandler
+                0x0000057c                PORTB_IRQHandler
+                0x0000057c                Reserved70_IRQHandler
+                0x0000057c                FTM2_Ch2_Ch3_IRQHandler
+                0x0000057c                Reserved53_IRQHandler
+                0x0000057c                DMA5_IRQHandler
+                0x0000057c                RTC_IRQHandler
+                0x0000057c                PDB0_IRQHandler
+                0x0000057c                Reserved54_IRQHandler
+                0x0000057c                FTM2_Ch6_Ch7_IRQHandler
+                0x0000057c                FTM3_Ch2_Ch3_IRQHandler
+                0x0000057c                FTM2_Ch0_Ch1_IRQHandler
+                0x0000057c                LPSPI1_IRQHandler
+                0x0000057c                LPUART1_RxTx_IRQHandler
+                0x0000057c                RTC_Seconds_IRQHandler
+                0x0000057c                Reserved72_IRQHandler
+                0x0000057c                Reserved110_IRQHandler
+                0x0000057c                DMA11_IRQHandler
+                0x0000057c                Reserved107_IRQHandler
+                0x0000057c                Read_Collision_IRQHandler
+                0x0000057c                CAN2_Error_IRQHandler
+                0x0000057c                FTFC_IRQHandler
+                0x0000057c                DMA7_IRQHandler
+                0x0000057c                FTM1_Ch6_Ch7_IRQHandler
+                0x0000057c                Reserved105_IRQHandler
+                0x0000057c                FTM1_Ch4_Ch5_IRQHandler
+                0x0000057c                FTM3_Ovf_Reload_IRQHandler
+                0x0000057c                LPUART2_RxTx_IRQHandler
+                0x0000057c                LPSPI0_IRQHandler
+                0x0000057c                WDOG_EWM_IRQHandler
+                0x0000057c                MemManage_Handler
+                0x0000057c                Reserved90_IRQHandler
+                0x0000057c                Reserved83_IRQHandler
+                0x0000057c                FTM0_Fault_IRQHandler
+                0x0000057c                Reserved48_IRQHandler
+                0x0000057c                SVC_Handler
+                0x0000057c                ERM_single_fault_IRQHandler
+                0x0000057c                FTM2_Fault_IRQHandler
+                0x0000057c                FTM0_Ch2_Ch3_IRQHandler
+                0x0000057c                DMA13_IRQHandler
+                0x0000057c                FTM0_Ch0_Ch1_IRQHandler
+                0x0000057c                FTM3_Fault_IRQHandler
+                0x0000057c                RCM_IRQHandler
+                0x0000057c                DMA3_IRQHandler
+                0x0000057c                Reserved100_IRQHandler
+                0x0000057c                DMA0_IRQHandler
+                0x0000057c                Reserved91_IRQHandler
+                0x0000057c                DMA15_IRQHandler
+                0x0000057c                SCG_IRQHandler
+                0x0000057c                PDB1_IRQHandler
+                0x0000057c                Reserved81_IRQHandler
+                0x0000057c                Reserved46_IRQHandler
+                0x0000057c                Reserved45_IRQHandler
+                0x0000057c                CAN0_Error_IRQHandler
+                0x0000057c                Reserved112_IRQHandler
+                0x0000057c                LPI2C0_Master_IRQHandler
+                0x0000057c                DMA4_IRQHandler
+                0x0000057c                FTM1_Fault_IRQHandler
+                0x0000057c                Reserved106_IRQHandler
+                0x0000057c                DMA_Error_IRQHandler
+                0x0000057c                LVD_LVW_IRQHandler
+                0x0000057c                PORTA_IRQHandler
+                0x0000057c                MCM_IRQHandler
+                0x0000057c                LPSPI2_IRQHandler
+                0x0000057c                DMA12_IRQHandler
+                0x0000057c                FTM3_Ch4_Ch5_IRQHandler
+                0x0000057c                PORTE_IRQHandler
+                0x0000057c                LPUART0_RxTx_IRQHandler
+                0x0000057c                LPTMR0_IRQHandler
+                0x0000057c                BusFault_Handler
+                0x0000057c                Reserved87_IRQHandler
+                0x0000057c                FTM1_Ovf_Reload_IRQHandler
+                0x0000057c                DMA8_IRQHandler
+                0x0000057c                Reserved93_IRQHandler
+                0x0000057c                DMA10_IRQHandler
+                0x0000057c                CAN0_Wake_Up_IRQHandler
+                0x0000057c                CMP0_IRQHandler
+                0x0000057c                Reserved52_IRQHandler
+                0x0000057c                PORTC_IRQHandler
+                0x0000057c                DMA6_IRQHandler
+                0x0000057c                FTM1_Ch0_Ch1_IRQHandler
+                0x0000057c                FLEXIO_IRQHandler
+                0x0000057c                DMA1_IRQHandler
+                0x0000057c                Reserved113_IRQHandler
+ *(.text*)
+ .text.init_data_bss
+                0x00000580      0x128 ./Project_Settings/Startup_Code/startup.o
+                0x00000580                init_data_bss
+ .text.SystemInit
+                0x000006a8       0x30 ./Project_Settings/Startup_Code/system_S32K144.o
+                0x000006a8                SystemInit
+ .text.main     0x000006d8       0xb4 ./src/app/application.o
+                0x000006d8                main
+ .text.App_ReceiveMessageNotification
+                0x0000078c       0x48 ./src/app/application.o
+ .text.App_BusOffNotification
+                0x000007d4        0xe ./src/app/application.o
+ .text.App_TriggerSensor_Notification
+                0x000007e2       0x12 ./src/app/application.o
+ .text.App_Sensor_Notification
+                0x000007f4        0xe ./src/app/application.o
+ *fill*         0x00000802        0x2 
+ .text.ADC_RegisterIRQHandlerCallback
+                0x00000804       0x2c ./src/drivers/src/DRV_S32K144_ADC.o
+                0x00000804                ADC_RegisterIRQHandlerCallback
+ .text.ADC0_IRQHandler
+                0x00000830       0x14 ./src/drivers/src/DRV_S32K144_ADC.o
+                0x00000830                ADC0_IRQHandler
+ .text.ADC1_IRQHandler
+                0x00000844       0x14 ./src/drivers/src/DRV_S32K144_ADC.o
+                0x00000844                ADC1_IRQHandler
+ .text.DRV_ADC_Init
+                0x00000858      0x104 ./src/drivers/src/DRV_S32K144_ADC.o
+                0x00000858                DRV_ADC_Init
+ .text.DRV_ADC_SetInputChannel
+                0x0000095c       0x78 ./src/drivers/src/DRV_S32K144_ADC.o
+                0x0000095c                DRV_ADC_SetInputChannel
+ .text.DRV_ADC_SetSoftTrigChannel
+                0x000009d4       0x26 ./src/drivers/src/DRV_S32K144_ADC.o
+                0x000009d4                DRV_ADC_SetSoftTrigChannel
+ *fill*         0x000009fa        0x2 
+ .text.DRV_ADC_ClearITFlag
+                0x000009fc       0x34 ./src/drivers/src/DRV_S32K144_ADC.o
+                0x000009fc                DRV_ADC_ClearITFlag
+ .text.DRV_ADC_GetSoftTriggChannelResult
+                0x00000a30       0x28 ./src/drivers/src/DRV_S32K144_ADC.o
+                0x00000a30                DRV_ADC_GetSoftTriggChannelResult
+ .text.DRV_ADC_SoftwareTriggerConversion
+                0x00000a58       0x48 ./src/drivers/src/DRV_S32K144_ADC.o
+                0x00000a58                DRV_ADC_SoftwareTriggerConversion
+ .text.FLEXCAN_BitrateToTimeSeg
+                0x00000aa0      0x200 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.FLEXCAN_GetFreezeMode
+                0x00000ca0       0x38 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.FLEXCAN_EnterFreezeMode
+                0x00000cd8       0x50 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.FLEXCAN_ExitFreezeMode
+                0x00000d28       0x4c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.FLEXCAN_SetBitrate
+                0x00000d74       0x98 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.FLEXCAN_EnableModule
+                0x00000e0c       0x30 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.FLEXCAN_DisableModule
+                0x00000e3c       0x30 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.FLEXCAN_SelectClockSource
+                0x00000e6c       0x50 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.FLEXCAN_GetMaxMbNum
+                0x00000ebc       0x5c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.FLEXCAN_ClearRAM
+                0x00000f18       0x84 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.FLEXCAN_InitMb
+                0x00000f9c       0x84 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.FLEXCAN_ConfigRxMaskType
+                0x00001020       0x74 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.FLEXCAN_SetOperationModes
+                0x00001094       0xa4 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.DRV_FLEXCAN_EnableMbInt
+                0x00001138       0x40 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x00001138                DRV_FLEXCAN_EnableMbInt
+ .text.DRV_FLEXCAN_Init
+                0x00001178      0x12c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x00001178                DRV_FLEXCAN_Init
+ .text.DRV_FLEXCAN_SetRxMbGlobalMask
+                0x000012a4       0x78 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x000012a4                DRV_FLEXCAN_SetRxMbGlobalMask
+ .text.DRV_FLEXCAN_SetRxMbIndividualMask
+                0x0000131c       0x8c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x0000131c                DRV_FLEXCAN_SetRxMbIndividualMask
+ .text.DRV_FLEXCAN_GetMbIntFlag
+                0x000013a8       0x4c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x000013a8                DRV_FLEXCAN_GetMbIntFlag
+ .text.DRV_FLEXCAN_ClearMbIntFlag
+                0x000013f4       0x3c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x000013f4                DRV_FLEXCAN_ClearMbIntFlag
+ .text.DRV_FLEXCAN_ConfigRxMb
+                0x00001430       0xec ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x00001430                DRV_FLEXCAN_ConfigRxMb
+ .text.DRV_FLEXCAN_ReceiveInt
+                0x0000151c       0xd4 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x0000151c                DRV_FLEXCAN_ReceiveInt
+ .text.FLEXCAN_Mb_IRQHandler
+                0x000015f0       0x34 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.DRV_FLEXCAN_ConfigTxMb
+                0x00001624       0xec ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x00001624                DRV_FLEXCAN_ConfigTxMb
+ .text.DRV_FLEXCAN_Transmit
+                0x00001710       0x78 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x00001710                DRV_FLEXCAN_Transmit
+ .text.FLEXCAN_ClearBusOffIntFlag
+                0x00001788       0x34 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.FLEXCAN_BusOff_IRQHandler
+                0x000017bc       0x3c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .text.DRV_FLEXCAN_RegisterMbCallback
+                0x000017f8       0x2c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x000017f8                DRV_FLEXCAN_RegisterMbCallback
+ .text.DRV_FLEXCAN_RegisterBusOffCallback
+                0x00001824       0x80 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x00001824                DRV_FLEXCAN_RegisterBusOffCallback
+ .text.CAN0_ORed_0_15_MB_IRQHandler
+                0x000018a4        0xe ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x000018a4                CAN0_ORed_0_15_MB_IRQHandler
+ .text.CAN0_ORed_16_31_MB_IRQHandler
+                0x000018b2        0xe ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x000018b2                CAN0_ORed_16_31_MB_IRQHandler
+ .text.CAN0_ORed_IRQHandler
+                0x000018c0        0xe ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x000018c0                CAN0_ORed_IRQHandler
+ .text.CAN1_ORed_0_15_MB_IRQHandler
+                0x000018ce        0xe ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x000018ce                CAN1_ORed_0_15_MB_IRQHandler
+ .text.CAN1_ORed_IRQHandler
+                0x000018dc        0xe ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x000018dc                CAN1_ORed_IRQHandler
+ .text.CAN2_ORed_0_15_MB_IRQHandler
+                0x000018ea        0xe ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x000018ea                CAN2_ORed_0_15_MB_IRQHandler
+ .text.CAN2_ORed_IRQHandler
+                0x000018f8        0xe ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x000018f8                CAN2_ORed_IRQHandler
+ *fill*         0x00001906        0x2 
+ .text.DRV_GPIO_SetPinDirection
+                0x00001908       0x58 ./src/drivers/src/DRV_S32K144_GPIO.o
+                0x00001908                DRV_GPIO_SetPinDirection
+ .text.DRV_GPIO_SetPins
+                0x00001960       0x3c ./src/drivers/src/DRV_S32K144_GPIO.o
+                0x00001960                DRV_GPIO_SetPins
+ .text.DRV_GPIO_ClearPins
+                0x0000199c       0x3c ./src/drivers/src/DRV_S32K144_GPIO.o
+                0x0000199c                DRV_GPIO_ClearPins
+ .text.DRV_LPIT_EnableModule
+                0x000019d8       0x30 ./src/drivers/src/DRV_S32K144_LPIT.o
+                0x000019d8                DRV_LPIT_EnableModule
+ .text.DRV_LPIT_Init
+                0x00001a08       0xdc ./src/drivers/src/DRV_S32K144_LPIT.o
+                0x00001a08                DRV_LPIT_Init
+ .text.DRV_LPIT_SetReloadValue
+                0x00001ae4       0x38 ./src/drivers/src/DRV_S32K144_LPIT.o
+                0x00001ae4                DRV_LPIT_SetReloadValue
+ .text.DRV_LPIT_StartTimerChannel
+                0x00001b1c       0x3c ./src/drivers/src/DRV_S32K144_LPIT.o
+                0x00001b1c                DRV_LPIT_StartTimerChannel
+ .text.DRV_LPIT_StopTimerChannel
+                0x00001b58       0x3c ./src/drivers/src/DRV_S32K144_LPIT.o
+                0x00001b58                DRV_LPIT_StopTimerChannel
+ .text.DRV_LPIT0_RegisterIntCallback
+                0x00001b94       0x2c ./src/drivers/src/DRV_S32K144_LPIT.o
+                0x00001b94                DRV_LPIT0_RegisterIntCallback
+ .text.LPIT0_Ch0_IRQHandler
+                0x00001bc0       0x24 ./src/drivers/src/DRV_S32K144_LPIT.o
+                0x00001bc0                LPIT0_Ch0_IRQHandler
+ .text.LPIT0_Ch1_IRQHandler
+                0x00001be4       0x24 ./src/drivers/src/DRV_S32K144_LPIT.o
+                0x00001be4                LPIT0_Ch1_IRQHandler
+ .text.LPIT0_Ch2_IRQHandler
+                0x00001c08       0x24 ./src/drivers/src/DRV_S32K144_LPIT.o
+                0x00001c08                LPIT0_Ch2_IRQHandler
+ .text.LPIT0_Ch3_IRQHandler
+                0x00001c2c       0x24 ./src/drivers/src/DRV_S32K144_LPIT.o
+                0x00001c2c                LPIT0_Ch3_IRQHandler
+ .text.DRV_Clock_Init
+                0x00001c50       0x3e ./src/drivers/src/DRV_S32K144_MCU.o
+                0x00001c50                DRV_Clock_Init
+ .text.DRV_SCG_Configuration
+                0x00001c8e       0x5e ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_SIRC_Config
+                0x00001cec       0x54 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_SIRC_AsyncConfig
+                0x00001d40       0x44 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_SIRC_SetConfiguration
+                0x00001d84       0x30 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_SIRC_Control
+                0x00001db4       0x58 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_FIRC_Config
+                0x00001e0c       0x36 ./src/drivers/src/DRV_S32K144_MCU.o
+ *fill*         0x00001e42        0x2 
+ .text.DRV_SCG_FIRC_AsyncConfig
+                0x00001e44       0x44 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_FIRC_Control
+                0x00001e88       0x4c ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_SOSC_Config
+                0x00001ed4       0x60 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_SOSC_AsyncConfig
+                0x00001f34       0x44 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_SOSC_SetConfiguration
+                0x00001f78       0x50 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_SOSC_Control
+                0x00001fc8       0xa8 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_SPLL_Config
+                0x00002070       0x5c ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_SPLL_AsyncConfig
+                0x000020cc       0x44 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_SPLL_SetConfiguration
+                0x00002110       0x48 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_SPLL_Control
+                0x00002158       0xa8 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_SystemClockConfig
+                0x00002200       0xf8 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_SCG_SetRunClockControl
+                0x000022f8       0x50 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_PCC_Configuration
+                0x00002348       0xa8 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_PCC_SetPeripheralClockControl
+                0x000023f0       0x58 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_Clock_GetFrequency
+                0x00002448       0x4a ./src/drivers/src/DRV_S32K144_MCU.o
+                0x00002448                DRV_Clock_GetFrequency
+ *fill*         0x00002492        0x2 
+ .text.DRV_SCG_GetClockFrequency
+                0x00002494      0x124 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_Clock_GetSourceFrequency
+                0x000025b8       0x64 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_Clock_GetSysClockFrequency
+                0x0000261c       0xc8 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_Clock_GetSOSCFrequency
+                0x000026e4       0x38 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_Clock_GetSIRCFrequency
+                0x0000271c       0x50 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_Clock_GetFIRCFrequency
+                0x0000276c       0x38 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_Clock_GetSPLLFrequency
+                0x000027a4       0x6c ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_Clock_GetSysAsyncFrequency
+                0x00002810      0x148 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_PCC_GetClockFrequency
+                0x00002958      0x118 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_PCC_CheckClock
+                0x00002a70       0x6c ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.DRV_PCC_GetPeripheralClock
+                0x00002adc       0xb0 ./src/drivers/src/DRV_S32K144_MCU.o
+ .text.NVIC_EnableIRQ
+                0x00002b8c       0x5c ./src/drivers/src/DRV_S32K144_NVIC.o
+                0x00002b8c                NVIC_EnableIRQ
+ .text.DRV_PORT_Init
+                0x00002be8       0x50 ./src/drivers/src/DRV_S32K144_PORT.o
+                0x00002be8                DRV_PORT_Init
+ .text.DRV_PORT_SetMux
+                0x00002c38       0x38 ./src/drivers/src/DRV_S32K144_PORT.o
+ .text.DRV_PORT_SetInterrupt
+                0x00002c70       0x42 ./src/drivers/src/DRV_S32K144_PORT.o
+ .text.DRV_PORT_SetPull
+                0x00002cb2       0x9a ./src/drivers/src/DRV_S32K144_PORT.o
+ .text.FLEXCAN_Pin_Init
+                0x00002d4c       0x4e ./src/middleware/src/MID_CAN_Interface.o
+ *fill*         0x00002d9a        0x2 
+ .text.FLEXCAN_ParamConfig
+                0x00002d9c       0x64 ./src/middleware/src/MID_CAN_Interface.o
+ .text.FLEXCAN_Tx_Mb_Init
+                0x00002e00       0x24 ./src/middleware/src/MID_CAN_Interface.o
+ .text.FLEXCAN_Rx_Mb_Init
+                0x00002e24       0x5c ./src/middleware/src/MID_CAN_Interface.o
+ .text.MID_CAN_Init
+                0x00002e80       0x18 ./src/middleware/src/MID_CAN_Interface.o
+                0x00002e80                MID_CAN_Init
+ .text.MID_CAN_RegisterRxNotificationCallback
+                0x00002e98       0x18 ./src/middleware/src/MID_CAN_Interface.o
+                0x00002e98                MID_CAN_RegisterRxNotificationCallback
+ .text.MID_CAN_RegisterBusOffNotificationCallback
+                0x00002eb0       0x18 ./src/middleware/src/MID_CAN_Interface.o
+                0x00002eb0                MID_CAN_RegisterBusOffNotificationCallback
+ .text.MID_CAN_ReceiveMessage
+                0x00002ec8       0x34 ./src/middleware/src/MID_CAN_Interface.o
+                0x00002ec8                MID_CAN_ReceiveMessage
+ .text.MID_CAN_SendCANMessage
+                0x00002efc       0x30 ./src/middleware/src/MID_CAN_Interface.o
+                0x00002efc                MID_CAN_SendCANMessage
+ .text.MID_ClearMessageCommingEvent
+                0x00002f2c       0x1c ./src/middleware/src/MID_CAN_Interface.o
+                0x00002f2c                MID_ClearMessageCommingEvent
+ .text.MID_CheckCommingMessageEvent
+                0x00002f48       0x1e ./src/middleware/src/MID_CAN_Interface.o
+                0x00002f48                MID_CheckCommingMessageEvent
+ *fill*         0x00002f66        0x2 
+ .text.MID_Clock_Init
+                0x00002f68       0xac ./src/middleware/src/MID_Clock_Interface.o
+                0x00002f68                MID_Clock_Init
+ .text.MID_Led_Init
+                0x00003014       0x74 ./src/middleware/src/MID_GPIO_Interface.o
+                0x00003014                MID_Led_Init
+ .text.MID_TurnOnLed
+                0x00003088       0x60 ./src/middleware/src/MID_GPIO_Interface.o
+                0x00003088                MID_TurnOnLed
+ .text.MID_EnableNotification
+                0x000030e8       0x20 ./src/middleware/src/MID_Notification_Manager.o
+                0x000030e8                MID_EnableNotification
+ .text.Pin_Init
+                0x00003108       0x34 ./src/middleware/src/MID_Sensor_Interface.o
+ .text.ADC_Init
+                0x0000313c       0x3e ./src/middleware/src/MID_Sensor_Interface.o
+ .text.MID_Sensor_Init
+                0x0000317a       0x10 ./src/middleware/src/MID_Sensor_Interface.o
+                0x0000317a                MID_Sensor_Init
+ *fill*         0x0000318a        0x2 
+ .text.MID_Get_DataSensorState
+                0x0000318c       0x14 ./src/middleware/src/MID_Sensor_Interface.o
+                0x0000318c                MID_Get_DataSensorState
+ .text.MID_Set_DataSensorState
+                0x000031a0       0x2c ./src/middleware/src/MID_Sensor_Interface.o
+                0x000031a0                MID_Set_DataSensorState
+ .text.ConvertToDistance
+                0x000031cc       0x34 ./src/middleware/src/MID_Sensor_Interface.o
+ .text.MID_Read_DistanceValue
+                0x00003200       0x3c ./src/middleware/src/MID_Sensor_Interface.o
+                0x00003200                MID_Read_DistanceValue
+ .text.MID_Trigger_ReadProcess
+                0x0000323c       0x10 ./src/middleware/src/MID_Sensor_Interface.o
+                0x0000323c                MID_Trigger_ReadProcess
+ .text.MID_ADC_RegisterNotificationCallback
+                0x0000324c       0x18 ./src/middleware/src/MID_Sensor_Interface.o
+                0x0000324c                MID_ADC_RegisterNotificationCallback
+ .text.MID_Timer_Init
+                0x00003264       0x70 ./src/middleware/src/MID_Timer_Interface.o
+                0x00003264                MID_Timer_Init
+ .text.MID_Timer_RegisterNotificationCallback
+                0x000032d4       0x18 ./src/middleware/src/MID_Timer_Interface.o
+                0x000032d4                MID_Timer_RegisterNotificationCallback
+ .text.MID_Timer_StartTimer
+                0x000032ec       0x10 ./src/middleware/src/MID_Timer_Interface.o
+                0x000032ec                MID_Timer_StartTimer
+ .text.exit     0x000032fc       0x20 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+                0x000032fc                exit
+ .text.__libc_init_array
+                0x0000331c       0x48 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+                0x0000331c                __libc_init_array
+ .text.memcpy   0x00003364       0x1c c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memcpy-stub.o)
+                0x00003364                memcpy
+ .text.memset   0x00003380       0x10 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+                0x00003380                memset
+ .text.startup.register_fini
+                0x00003390       0x14 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x000033a4       0xa4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+                0x000033a4                __call_exitprocs
+ .text.__libc_fini_array
+                0x00003448       0x28 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+                0x00003448                __libc_fini_array
+ .text.atexit   0x00003470        0xc c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+                0x00003470                atexit
+ .text.__register_exitproc
+                0x0000347c       0x64 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+                0x0000347c                __register_exitproc
+ .text._exit    0x000034e0        0x2 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+                0x000034e0                _exit
+ *(.rodata)
+ *fill*         0x000034e2        0x2 
+ .rodata        0x000034e4       0x54 ./src/drivers/src/DRV_S32K144_MCU.o
+ .rodata        0x00003538       0x12 ./src/middleware/src/MID_Clock_Interface.o
+ *(.rodata*)
+ *fill*         0x0000354a        0x2 
+ .rodata._global_impure_ptr
+                0x0000354c        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+                0x0000354c                _global_impure_ptr
+ *(.glue_7)
+ .glue_7        0x00003550        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00003550        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x00003550        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
+ *(.init)
+ .init          0x00003550        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crti.o
+                0x00003550                _init
+ .init          0x00003554        0x8 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtn.o
+ *(.fini)
+ .fini          0x0000355c        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crti.o
+                0x0000355c                _fini
+ .fini          0x00003560        0x8 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtn.o
+                0x00003568                . = ALIGN (0x4)
+
+.vfp11_veneer   0x00003568        0x0
+ .vfp11_veneer  0x00003568        0x0 linker stubs
+
+.v4_bx          0x00003568        0x0
+ .v4_bx         0x00003568        0x0 linker stubs
+
+.iplt           0x00003568        0x0
+ .iplt          0x00003568        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x00003568        0x8
+                0x00003568                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x00003568        0x8 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+                                 0x10 (size before relaxing)
+                0x00003570                __exidx_end = .
+
+.rel.dyn        0x00003570        0x0
+ .rel.iplt      0x00003570        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
+
+.ctors          0x00003570        0x0
+                0x00003570                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x00003570                __CTOR_END__ = .
+
+.dtors          0x00003570        0x0
+                0x00003570                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x00003570                __DTOR_END__ = .
+
+.preinit_array  0x00003570        0x0
+                0x00003570                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x00003570                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00003570        0x8
+                0x00003570                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ .init_array.00000
+                0x00003570        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ *(.init_array*)
+ .init_array    0x00003574        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
+                0x00003578                PROVIDE (__init_array_end = .)
+
+.fini_array     0x00003578        0x4
+                0x00003578                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x00003578        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
+                0x0000357c                PROVIDE (__fini_array_end = .)
+                0x0000357c                __etext = .
+                0x0000357c                __DATA_ROM = .
+
+.interrupts_ram
+                0x1fff8000      0x400
+                0x1fff8000                . = ALIGN (0x4)
+                0x1fff8000                __VECTOR_RAM__ = .
+                0x1fff8000                __RAM_START = .
+                0x1fff8000                __interrupts_ram_start__ = .
+ *(.m_interrupts_ram)
+                0x1fff8400                . = (. + M_VECTOR_RAM_SIZE)
+ *fill*         0x1fff8000      0x400 
+                0x1fff8400                . = ALIGN (0x4)
+                0x1fff8400                __interrupts_ram_end__ = .
+                0x1fff8000                __VECTOR_RAM = DEFINED (__flash_vector_table__)?ORIGIN (m_interrupts):__VECTOR_RAM__
+                0x00000400                __RAM_VECTOR_TABLE_SIZE = DEFINED (__flash_vector_table__)?0x0:(__interrupts_ram_end__ - __interrupts_ram_start__)
+
+.data           0x1fff8400      0x5f0 load address 0x0000357c
+                0x1fff8400                . = ALIGN (0x4)
+                0x1fff8400                __DATA_RAM = .
+                0x1fff8400                __data_start__ = .
+ *(.data)
+ *(.data*)
+ .data.g_AdcBase
+                0x1fff8400        0x8 ./src/drivers/src/DRV_S32K144_ADC.o
+                0x1fff8400                g_AdcBase
+ .data.g_flexcanBase
+                0x1fff8408        0xc ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x1fff8408                g_flexcanBase
+ .data.g_GPIO_Base_Addr
+                0x1fff8414       0x14 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .data.g_LpitBase
+                0x1fff8428        0x4 ./src/drivers/src/DRV_S32K144_LPIT.o
+                0x1fff8428                g_LpitBase
+ .data.g_PCC_ClockNameMappings
+                0x1fff842c       0x4f ./src/drivers/src/DRV_S32K144_MCU.o
+ *fill*         0x1fff847b        0x1 
+ .data.g_PeripheralFeaturesList
+                0x1fff847c      0x13c ./src/drivers/src/DRV_S32K144_MCU.o
+ .data.g_PORT_Base_Addr
+                0x1fff85b8       0x14 ./src/drivers/src/DRV_S32K144_PORT.o
+ .data.mbCfg    0x1fff85cc        0x8 ./src/middleware/src/MID_CAN_Interface.o
+                0x1fff85cc                mbCfg
+ *fill*         0x1fff85d4        0x4 
+ .data.impure_data
+                0x1fff85d8      0x418 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+ *(.jcr*)
+                0x1fff89f0                . = ALIGN (0x4)
+                0x1fff89f0                __data_end__ = .
+                0x00003b6c                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x00003b6c                __CODE_ROM = __DATA_END
+
+.tm_clone_table
+                0x1fff89f0        0x0 load address 0x00003b6c
+ .tm_clone_table
+                0x1fff89f0        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
+ .tm_clone_table
+                0x1fff89f0        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtend.o
+
+.igot.plt       0x1fff89f0        0x0 load address 0x00003b6c
+ .igot.plt      0x1fff89f0        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
+
+.code           0x1fff89f0        0x0 load address 0x00003b6c
+                0x1fff89f0                . = ALIGN (0x4)
+                0x1fff89f0                __CODE_RAM = .
+                0x1fff89f0                __code_start__ = .
+                0x1fff89f0                __code_ram_start__ = .
+ *(.code_ram)
+                0x1fff89f0                . = ALIGN (0x4)
+                0x1fff89f0                __code_end__ = .
+                0x1fff89f0                __code_ram_end__ = .
+                0x00003b6c                __CODE_END = (__CODE_ROM + (__code_end__ - __code_start__))
+                0x00003b6c                __CUSTOM_ROM = __CODE_END
+
+.customSectionBlock
+                0x20000000        0x0 load address 0x00003b6c
+                0x20000000                __customSection_start__ = .
+ *(.customSection)
+                0x20000000                __customSection_end__ = .
+                0x00003b6c                __CUSTOM_END = (__CUSTOM_ROM + (__customSection_end__ - __customSection_start__))
+
+.bss            0x20000000      0x10c
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __BSS_START = .
+                0x20000000                __bss_start__ = .
+ *(.bss)
+ .bss           0x20000000       0x1c c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
+ *(.bss*)
+ .bss.Cur_Sensor_Value
+                0x2000001c        0x2 ./src/app/application.o
+                0x2000001c                Cur_Sensor_Value
+ .bss.Pre_Sensor_Value
+                0x2000001e        0x2 ./src/app/application.o
+                0x2000001e                Pre_Sensor_Value
+ .bss.Delta     0x20000020        0x2 ./src/app/application.o
+                0x20000020                Delta
+ *fill*         0x20000022        0x2 
+ .bss.Data_Receive
+                0x20000024        0x8 ./src/app/application.o
+                0x20000024                Data_Receive
+ .bss.ADC_IRQ_Fp
+                0x2000002c        0x8 ./src/drivers/src/DRV_S32K144_ADC.o
+ .bss.g_flexcanHandle
+                0x20000034        0xc ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x20000034                g_flexcanHandle
+ .bss.LPIT_IRQ_fp
+                0x20000040       0x10 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .bss.handle    0x20000050       0x88 ./src/middleware/src/MID_CAN_Interface.o
+ .bss.Message   0x200000d8       0x18 ./src/middleware/src/MID_CAN_Interface.o
+ .bss.Receive_Message
+                0x200000f0       0x18 ./src/middleware/src/MID_CAN_Interface.o
+ .bss.Sensor_State
+                0x20000108        0x1 ./src/middleware/src/MID_Sensor_Interface.o
+ *fill*         0x20000109        0x1 
+ .bss.ADC_Value
+                0x2000010a        0x2 ./src/middleware/src/MID_Sensor_Interface.o
+ *(COMMON)
+                0x2000010c                . = ALIGN (0x4)
+                0x2000010c                __bss_end__ = .
+                0x2000010c                __BSS_END = .
+
+.heap           0x2000010c      0x404
+                0x20000110                . = ALIGN (0x8)
+ *fill*         0x2000010c        0x4 
+                0x20000110                __end__ = .
+                0x20000110                __heap_start__ = .
+                [!provide]                PROVIDE (end = .)
+                [!provide]                PROVIDE (_end = .)
+                [!provide]                PROVIDE (__end = .)
+                0x20000110                __HeapBase = .
+                0x20000510                . = (. + HEAP_SIZE)
+ *fill*         0x20000110      0x400 
+                0x20000510                __HeapLimit = .
+                0x20000510                __heap_limit = .
+                0x20000510                __heap_end__ = .
+                0x20007000                __StackTop = (ORIGIN (m_data_2) + LENGTH (m_data_2))
+                0x20006c00                __StackLimit = (__StackTop - STACK_SIZE)
+                0x20007000                PROVIDE (__stack = __StackTop)
+                0x20007000                __RAM_END = __StackTop
+
+.stack          0x20006c00      0x400
+                0x20006c00                . = ALIGN (0x8)
+                0x20006c00                __stack_start__ = .
+                0x20007000                . = (. + STACK_SIZE)
+ *fill*         0x20006c00      0x400 
+                0x20007000                __stack_end__ = .
+                0x20000000                __START_BSS = __BSS_START
+                0x2000010c                __END_BSS = __BSS_END
+                0x20007000                __SP_INIT = __StackTop
+
+.ARM.attributes
+                0x00000000       0x2a
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crti.o
+ .ARM.attributes
+                0x0000001e       0x2e c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
+ .ARM.attributes
+                0x0000004c       0x1c c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .ARM.attributes
+                0x00000068       0x2e ./Project_Settings/Startup_Code/startup.o
+ .ARM.attributes
+                0x00000096       0x1b ./Project_Settings/Startup_Code/startup_S32K144.o
+ .ARM.attributes
+                0x000000b1       0x2e ./Project_Settings/Startup_Code/system_S32K144.o
+ .ARM.attributes
+                0x000000df       0x2e ./src/app/application.o
+ .ARM.attributes
+                0x0000010d       0x2e ./src/drivers/src/DRV_S32K144_ADC.o
+ .ARM.attributes
+                0x0000013b       0x2e ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .ARM.attributes
+                0x00000169       0x2e ./src/drivers/src/DRV_S32K144_GPIO.o
+ .ARM.attributes
+                0x00000197       0x2e ./src/drivers/src/DRV_S32K144_LPIT.o
+ .ARM.attributes
+                0x000001c5       0x2e ./src/drivers/src/DRV_S32K144_MCU.o
+ .ARM.attributes
+                0x000001f3       0x2e ./src/drivers/src/DRV_S32K144_NVIC.o
+ .ARM.attributes
+                0x00000221       0x2e ./src/drivers/src/DRV_S32K144_PORT.o
+ .ARM.attributes
+                0x0000024f       0x2e ./src/middleware/src/MID_CAN_Interface.o
+ .ARM.attributes
+                0x0000027d       0x2e ./src/middleware/src/MID_Clock_Interface.o
+ .ARM.attributes
+                0x000002ab       0x2e ./src/middleware/src/MID_GPIO_Interface.o
+ .ARM.attributes
+                0x000002d9       0x2e ./src/middleware/src/MID_Notification_Manager.o
+ .ARM.attributes
+                0x00000307       0x2e ./src/middleware/src/MID_Sensor_Interface.o
+ .ARM.attributes
+                0x00000335       0x2e ./src/middleware/src/MID_Timer_Interface.o
+ .ARM.attributes
+                0x00000363       0x2e c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000391       0x2e c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000003bf       0x2e c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x000003ed       0x2e c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000041b       0x2e c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000449       0x2e c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000477       0x2e c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x000004a5       0x2e c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x000004d3       0x2e c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000501       0x2e c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x0000052f       0x2e c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtend.o
+ .ARM.attributes
+                0x0000055d       0x1e c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtn.o
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data_2 overflowed with stack and heap)
+OUTPUT(Distance_Sensor_Node.elf elf32-littlearm)
+LOAD linker stubs
+
+.comment        0x00000000       0x88
+ .comment       0x00000000       0x88 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
+                                 0x89 (size before relaxing)
+ .comment       0x00000088       0x89 ./Project_Settings/Startup_Code/startup.o
+ .comment       0x00000088       0x89 ./Project_Settings/Startup_Code/system_S32K144.o
+ .comment       0x00000088       0x89 ./src/app/application.o
+ .comment       0x00000088       0x89 ./src/drivers/src/DRV_S32K144_ADC.o
+ .comment       0x00000088       0x89 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .comment       0x00000088       0x89 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .comment       0x00000088       0x89 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .comment       0x00000088       0x89 ./src/drivers/src/DRV_S32K144_MCU.o
+ .comment       0x00000088       0x89 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .comment       0x00000088       0x89 ./src/drivers/src/DRV_S32K144_PORT.o
+ .comment       0x00000088       0x89 ./src/middleware/src/MID_CAN_Interface.o
+ .comment       0x00000088       0x89 ./src/middleware/src/MID_Clock_Interface.o
+ .comment       0x00000088       0x89 ./src/middleware/src/MID_GPIO_Interface.o
+ .comment       0x00000088       0x89 ./src/middleware/src/MID_Notification_Manager.o
+ .comment       0x00000088       0x89 ./src/middleware/src/MID_Sensor_Interface.o
+ .comment       0x00000088       0x89 ./src/middleware/src/MID_Timer_Interface.o
+ .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+ .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+ .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+ .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memcpy-stub.o)
+ .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+ .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+ .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+ .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+ .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+ .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtend.o
+
+.debug_line     0x00000000     0x5282
+ .debug_line    0x00000000       0x93 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .debug_line    0x00000093      0x389 ./Project_Settings/Startup_Code/startup.o
+ .debug_line    0x0000041c       0x91 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .debug_line    0x000004ad      0x3be ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_line    0x0000086b      0x3da ./src/app/application.o
+ .debug_line    0x00000c45      0x49f ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_line    0x000010e4      0xd11 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_line    0x00001df5      0x3c0 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_line    0x000021b5      0x4b2 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_line    0x00002667      0xc75 ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_line    0x000032dc      0x3ca ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_line    0x000036a6      0x36f ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_line    0x00003a15      0x4de ./src/middleware/src/MID_CAN_Interface.o
+ .debug_line    0x00003ef3      0x37a ./src/middleware/src/MID_Clock_Interface.o
+ .debug_line    0x0000426d      0x424 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_line    0x00004691      0x359 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_line    0x000049ea      0x477 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_line    0x00004e61      0x421 ./src/middleware/src/MID_Timer_Interface.o
+
+.debug_info     0x00000000     0x70df
+ .debug_info    0x00000000       0x26 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .debug_info    0x00000026      0x443 ./Project_Settings/Startup_Code/startup.o
+ .debug_info    0x00000469       0x26 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .debug_info    0x0000048f      0x567 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_info    0x000009f6      0x1bb ./src/app/application.o
+ .debug_info    0x00000bb1      0x66d ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_info    0x0000121e     0x12ad ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_info    0x000024cb      0x35f ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_info    0x0000282a      0x573 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_info    0x00002d9d     0x14ac ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_info    0x00004249      0x625 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_info    0x0000486e      0x3f5 ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_info    0x00004c63      0x9ee ./src/middleware/src/MID_CAN_Interface.o
+ .debug_info    0x00005651      0x8da ./src/middleware/src/MID_Clock_Interface.o
+ .debug_info    0x00005f2b      0x515 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_info    0x00006440      0x2e4 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_info    0x00006724      0x60a ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_info    0x00006d2e      0x3b1 ./src/middleware/src/MID_Timer_Interface.o
+
+.debug_abbrev   0x00000000     0x1633
+ .debug_abbrev  0x00000000       0x14 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .debug_abbrev  0x00000014      0x11c ./Project_Settings/Startup_Code/startup.o
+ .debug_abbrev  0x00000130       0x14 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .debug_abbrev  0x00000144      0x13f ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_abbrev  0x00000283       0xd2 ./src/app/application.o
+ .debug_abbrev  0x00000355      0x1b8 ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_abbrev  0x0000050d      0x2da ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_abbrev  0x000007e7      0x137 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_abbrev  0x0000091e      0x19c ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_abbrev  0x00000aba      0x252 ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_abbrev  0x00000d0c      0x14a ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_abbrev  0x00000e56      0x15b ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_abbrev  0x00000fb1      0x1a9 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_abbrev  0x0000115a       0xf8 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_abbrev  0x00001252       0xe8 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_abbrev  0x0000133a       0x6c ./src/middleware/src/MID_Notification_Manager.o
+ .debug_abbrev  0x000013a6      0x180 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_abbrev  0x00001526      0x10d ./src/middleware/src/MID_Timer_Interface.o
+
+.debug_str      0x00000000    0x660cd
+ .debug_str     0x00000000       0xb9 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .debug_str     0x000000b9    0x61a7f ./Project_Settings/Startup_Code/startup.o
+                              0x61c0f (size before relaxing)
+ .debug_str     0x00061b38       0x33 ./Project_Settings/Startup_Code/startup_S32K144.o
+                                 0x81 (size before relaxing)
+ .debug_str     0x00061b6b      0x1f3 ./Project_Settings/Startup_Code/system_S32K144.o
+                              0x61a80 (size before relaxing)
+ .debug_str     0x00061d5e      0x38b ./src/app/application.o
+                               0x3ff5 (size before relaxing)
+ .debug_str     0x000620e9      0x8fb ./src/drivers/src/DRV_S32K144_ADC.o
+                              0x5713a (size before relaxing)
+ .debug_str     0x000629e4      0xd65 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                              0x5756a (size before relaxing)
+ .debug_str     0x00063749      0x169 ./src/drivers/src/DRV_S32K144_GPIO.o
+                              0x56922 (size before relaxing)
+ .debug_str     0x000638b2      0x2be ./src/drivers/src/DRV_S32K144_LPIT.o
+                              0x56dee (size before relaxing)
+ .debug_str     0x00063b70     0x12de ./src/drivers/src/DRV_S32K144_MCU.o
+                              0x62dff (size before relaxing)
+ .debug_str     0x00064e4e      0x786 ./src/drivers/src/DRV_S32K144_NVIC.o
+                              0x56f98 (size before relaxing)
+ .debug_str     0x000655d4      0x2bb ./src/drivers/src/DRV_S32K144_PORT.o
+                              0x56aa2 (size before relaxing)
+ .debug_str     0x0006588f      0x42e ./src/middleware/src/MID_CAN_Interface.o
+                              0x625e1 (size before relaxing)
+ .debug_str     0x00065cbd       0x9b ./src/middleware/src/MID_Clock_Interface.o
+                              0x622e6 (size before relaxing)
+ .debug_str     0x00065d58       0xdc ./src/middleware/src/MID_GPIO_Interface.o
+                              0x56cc8 (size before relaxing)
+ .debug_str     0x00065e34       0x48 ./src/middleware/src/MID_Notification_Manager.o
+                              0x56e85 (size before relaxing)
+ .debug_str     0x00065e7c      0x187 ./src/middleware/src/MID_Sensor_Interface.o
+                              0x57539 (size before relaxing)
+ .debug_str     0x00066003       0xca ./src/middleware/src/MID_Timer_Interface.o
+                              0x620e2 (size before relaxing)
+
+.debug_aranges  0x00000000      0x658
+ .debug_aranges
+                0x00000000       0x20 ./Project_Settings/Startup_Code/startup.o
+ .debug_aranges
+                0x00000020       0x20 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .debug_aranges
+                0x00000040       0x30 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_aranges
+                0x00000070       0x40 ./src/app/application.o
+ .debug_aranges
+                0x000000b0       0x70 ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_aranges
+                0x00000120      0x140 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_aranges
+                0x00000260       0x48 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_aranges
+                0x000002a8       0x80 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_aranges
+                0x00000328      0x120 ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_aranges
+                0x00000448       0x50 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_aranges
+                0x00000498       0x38 ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_aranges
+                0x000004d0       0x78 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_aranges
+                0x00000548       0x20 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_aranges
+                0x00000568       0x38 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_aranges
+                0x000005a0       0x20 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_aranges
+                0x000005c0       0x60 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_aranges
+                0x00000620       0x38 ./src/middleware/src/MID_Timer_Interface.o
+
+.debug_ranges   0x00000000      0x538
+ .debug_ranges  0x00000000       0x10 ./Project_Settings/Startup_Code/startup.o
+ .debug_ranges  0x00000010       0x20 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_ranges  0x00000030       0x30 ./src/app/application.o
+ .debug_ranges  0x00000060       0x60 ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_ranges  0x000000c0      0x130 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_ranges  0x000001f0       0x38 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_ranges  0x00000228       0x70 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_ranges  0x00000298      0x110 ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_ranges  0x000003a8       0x40 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_ranges  0x000003e8       0x28 ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_ranges  0x00000410       0x68 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_ranges  0x00000478       0x10 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_ranges  0x00000488       0x28 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_ranges  0x000004b0       0x10 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_ranges  0x000004c0       0x50 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_ranges  0x00000510       0x28 ./src/middleware/src/MID_Timer_Interface.o
+
+.debug_macro    0x00000000    0x1bc63
+ .debug_macro   0x00000000       0xb5 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x000000b5      0xa60 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000b15       0x22 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000b37       0x8e ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000bc5       0x51 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000c16      0x103 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000d19       0x6a ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000d83      0x1df ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000f62       0x10 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000f72       0x7a ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000fec     0xc365 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x0000d351     0x1707 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x0000ea58       0x22 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x0000ea7a       0x40 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x0000eaba       0xb4 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x0000eb6e       0x16 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x0000eb84     0xc353 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x0001aed7       0x28 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x0001aeff       0xa8 ./src/app/application.o
+ .debug_macro   0x0001afa7       0x22 ./src/app/application.o
+ .debug_macro   0x0001afc9       0x10 ./src/app/application.o
+ .debug_macro   0x0001afd9       0x52 ./src/app/application.o
+ .debug_macro   0x0001b02b       0x93 ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_macro   0x0001b0be      0x174 ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_macro   0x0001b232       0xbe ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_macro   0x0001b2f0       0x80 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_macro   0x0001b370       0xc4 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_macro   0x0001b434       0x76 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_macro   0x0001b4aa       0x94 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_macro   0x0001b53e       0xd9 ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_macro   0x0001b617       0x80 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_macro   0x0001b697       0x34 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_macro   0x0001b6cb       0x80 ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_macro   0x0001b74b       0x10 ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_macro   0x0001b75b       0xc6 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x0001b821       0xca ./src/middleware/src/MID_CAN_Interface.o
+ .debug_macro   0x0001b8eb       0xa3 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_macro   0x0001b98e       0xa6 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_macro   0x0001ba34       0x8a ./src/middleware/src/MID_Notification_Manager.o
+ .debug_macro   0x0001babe       0xbd ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_macro   0x0001bb7b       0x16 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_macro   0x0001bb91       0xd2 ./src/middleware/src/MID_Timer_Interface.o
+
+.debug_frame    0x00000000     0x1678
+ .debug_frame   0x00000000       0x38 ./Project_Settings/Startup_Code/startup.o
+ .debug_frame   0x00000038       0x80 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_frame   0x000000b8       0x9c ./src/app/application.o
+ .debug_frame   0x00000154      0x1ac ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_frame   0x00000300      0x548 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_frame   0x00000848      0x100 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_frame   0x00000948      0x1e8 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_frame   0x00000b30      0x4fc ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_frame   0x0000102c      0x128 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_frame   0x00001154       0xac ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_frame   0x00001200      0x1a0 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_frame   0x000013a0       0x38 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_frame   0x000013d8       0xa0 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_frame   0x00001478       0x2c ./src/middleware/src/MID_Notification_Manager.o
+ .debug_frame   0x000014a4      0x144 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_frame   0x000015e8       0x90 ./src/middleware/src/MID_Timer_Interface.o
