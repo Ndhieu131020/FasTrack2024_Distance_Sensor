@@ -19,6 +19,7 @@
 
 #define RX_MSG_CONNECTION_ID    0xE0
 #define RX_MSG_STOPOPR_ID       0x30
+#define RX_MSG_CONFIRM_DATA_ID  0x21
 
 #define TX_MSG_CONFIRM_CONNECTION_ID    0xE1
 #define TX_MSG_CONFIRM_CONNECTION_DATA  0xFF
@@ -28,8 +29,9 @@
 #define TX_DISTANCE_DATA_MB        0u
 #define TX_CONFIRM_CONNECTION_MB   1u
 
-#define RX_STOPOPR_MB      4u
-#define RX_CONNECTION_MB   5u
+#define RX_STOPOPR_MB       4u
+#define RX_CONNECTION_MB    5u
+#define RX_CONFIRM_DATA_MB  6u
 
 #define CAN_MSG_RECEIVED      1u
 #define CAN_MSG_NO_RECEIVED   0u

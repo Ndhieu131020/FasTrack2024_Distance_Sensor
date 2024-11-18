@@ -113,6 +113,11 @@ static void App_ReceiveMessageNotification(void)
         MID_CAN_ReceiveMessage(RX_STOPOPR_MB, &Data_Receive);
         MID_ClearMessageCommingEvent(RX_STOPOPR_MB);
    }
+
+   if(MID_CheckCommingMessageEvent(RX_CONFIRM_DATA_MB) == CAN_MSG_RECEIVED)
+   {
+        MID_ClearMessageCommingEvent(RX_CONFIRM_DATA_MB);
+   }
 }
 
 /**
