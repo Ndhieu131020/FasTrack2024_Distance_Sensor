@@ -95,10 +95,10 @@ static void FLEXCAN_ParamConfig(void)
 static void FLEXCAN_Tx_Mb_Init(void)
 {
     /* Initialize Tx Message buffer to send sensor data to CAN Bus */
-    DRV_FLEXCAN_ConfigTxMb(0, TX_DISTANCE_DATA_MB, &mbCfg, TX_MSG_DISTANCE_DATA_ID);
+    DRV_FLEXCAN_ConfigTxMb(FLEXCAN_INSTANCE, TX_DISTANCE_DATA_MB, &mbCfg, TX_MSG_DISTANCE_DATA_ID);
 
     /* Initialize Tx Message buffer to send confirm connection from Forwarder to CAN Bus */
-    DRV_FLEXCAN_ConfigTxMb(0, TX_CONFIRM_CONNECTION_MB, &mbCfg, TX_MSG_CONFIRM_CONNECTION_ID);
+    DRV_FLEXCAN_ConfigTxMb(FLEXCAN_INSTANCE, TX_CONFIRM_CONNECTION_MB, &mbCfg, TX_MSG_CONFIRM_CONNECTION_ID);
 }
 
 static void FLEXCAN_Rx_Mb_Init(void)

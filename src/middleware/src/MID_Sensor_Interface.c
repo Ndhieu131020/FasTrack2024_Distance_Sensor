@@ -108,8 +108,6 @@ uint16_t MID_Read_DistanceValue(void)
 
     Sensor_Value = ConvertToDistance(ADC_Value);
 
-    MID_Set_DataSensorState(IDLE);
-
     return Sensor_Value;
 }
 
