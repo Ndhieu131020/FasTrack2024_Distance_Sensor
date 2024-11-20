@@ -6,6 +6,7 @@
 */
 
 #include <stdint.h>
+#include <stdbool.h>
 #include "MID_Sensor_Interface.h"
 #include "MID_Clock_Interface.h"
 #include "MID_Notification_Manager.h"
@@ -22,6 +23,13 @@
 
 /* Threshold for triggering a CAN message when sensor value changes */
 #define CHANGE_THRESHOLD    (20U)
+
+typedef enum
+{
+    STATE_IDLE,
+    STATE_ACTIVE,
+    STATE_STOP
+} State_Type;
 
 /*******************************************************************************
  * Prototypes
@@ -40,7 +48,13 @@ uint16_t Pre_Sensor_Value = 0U;
 uint16_t Delta            = 0U;
 
 /* Structure to save received CAN data */
-Data_Typedef Data_Receive;
+static Data_Typedef Data_Receive;
+
+/* The current state of the application. */
+static volatile State_Type g_current_state = STATE_IDLE;
+
+/* Flag indicating whether this is the first entry into the active state */
+static bool g_isActiveEntry = true;
 
 /*******************************************************************************
  * Code
@@ -65,27 +79,45 @@ int main(void)
     MID_Timer_RegisterNotificationCallback(&App_TriggerSensor_Notification);
     MID_ADC_RegisterNotificationCallback(&App_Sensor_Notification);
     MID_CAN_RegisterRxNotificationCallback(&App_ReceiveMessageNotification);
-    MID_CAN_RegisterBusOffNotificationCallback(&App_BusOffNotification);
 
     /* Enable notifications and start periodic timer */
     MID_EnableNotification();
 
-    MID_Timer_StartTimer();
-
     while(1)
     {
-        if(MID_Get_DataSensorState() == READY_TO_READ)
+        switch (g_current_state)
         {
-            Cur_Sensor_Value = MID_Read_DistanceValue();
-            MID_Set_DataSensorState(IDLE);
-        }
+            case STATE_ACTIVE:
+                if (g_isActiveEntry == true)
+                {
+                    MID_Timer_StartTimer();
+                    MID_TurnOffLed(LED_RED);
+                    g_isActiveEntry = false;
+                }
 
-        Delta = ABS(Cur_Sensor_Value, Pre_Sensor_Value);
+                if(MID_Get_DataSensorState() == READY_TO_READ)
+                {
+                    Cur_Sensor_Value = MID_Read_DistanceValue();
+                    MID_Set_DataSensorState(IDLE);
+                }
 
-        if(Delta > CHANGE_THRESHOLD)
-        {
-            Pre_Sensor_Value = Cur_Sensor_Value;
-            MID_CAN_SendCANMessage(TX_DISTANCE_DATA_MB, Cur_Sensor_Value);
+                Delta = ABS(Cur_Sensor_Value, Pre_Sensor_Value);
+
+                if(Delta > CHANGE_THRESHOLD)
+                {
+                    Pre_Sensor_Value = Cur_Sensor_Value;
+                    MID_CAN_SendCANMessage(TX_DISTANCE_DATA_MB, Cur_Sensor_Value);
+                }
+                break;
+
+            case STATE_STOP:
+                MID_Timer_StopTimer();
+                MID_TurnOnLed(LED_RED);
+                g_isActiveEntry = true;
+                break;
+
+            default:
+                break;
         }
     }
 
@@ -100,42 +132,46 @@ int main(void)
   */
 static void App_ReceiveMessageNotification(void)
 {
-   if(MID_CheckCommingMessageEvent(RX_CONNECTION_MB) == CAN_MSG_RECEIVED)
-   {
-        MID_CAN_ReceiveMessage(RX_CONNECTION_MB, &Data_Receive);
-        MID_CAN_SendCANMessage(TX_CONFIRM_CONNECTION_MB, TX_MSG_CONFIRM_CONNECTION_DATA);
-        MID_ClearMessageCommingEvent(RX_CONNECTION_MB);
-        MID_TurnOffLed(LED_RED);
-   }
+    if (MID_CheckCommingMessageEvent(RX_CONNECTION_MB) == CAN_MSG_RECEIVED)
+    {
+          MID_CAN_ReceiveMessage(RX_CONNECTION_MB, &Data_Receive);
+          MID_CAN_SendCANMessage(TX_CONFIRM_CONNECTION_MB, TX_MSG_CONFIRM_CONNECTION_DATA);
+          MID_ClearMessageCommingEvent(RX_CONNECTION_MB);
+          g_current_state = STATE_ACTIVE;
+    }
 
-   if(MID_CheckCommingMessageEvent(RX_STOPOPR_MB) == CAN_MSG_RECEIVED)
-   {
-        MID_CAN_ReceiveMessage(RX_STOPOPR_MB, &Data_Receive);
-        MID_ClearMessageCommingEvent(RX_STOPOPR_MB);
-   }
+    if (MID_CheckCommingMessageEvent(RX_STOPOPR_MB) == CAN_MSG_RECEIVED)
+    {
+          MID_CAN_ReceiveMessage(RX_STOPOPR_MB, &Data_Receive);
+          MID_CAN_SendCANMessage(TX_CONFIRM_STOPOPR_MB, TX_MSG_CONFIRM_CONNECTION_DATA);
 
-   if(MID_CheckCommingMessageEvent(RX_CONFIRM_DATA_MB) == CAN_MSG_RECEIVED)
-   {
-        MID_ClearMessageCommingEvent(RX_CONFIRM_DATA_MB);
-   }
+          if (Data_Receive.Data == RX_MSG_STOP_OPR_DATA)
+          {
+              g_current_state = STATE_STOP;
+          }
+          else if (Data_Receive.Data == RX_MSG_RESUME_OPR_DATA)
+          {
+              g_current_state = STATE_ACTIVE;
+          }
+          else
+          {
+              /* Do nothing */
+          }
 
-   if(MID_CheckCommingMessageEvent(RX_PING_MSG_MB) == CAN_MSG_RECEIVED)
-   {
-        MID_CAN_ReceiveMessage(RX_PING_MSG_MB, &Data_Receive);
-        MID_CAN_SendCANMessage(TX_CONFIRM_PING_MB, TX_MSG_CONFIRM_CONNECTION_DATA);
-        MID_ClearMessageCommingEvent(RX_PING_MSG_MB);
-   }
-}
+          MID_ClearMessageCommingEvent(RX_STOPOPR_MB);
+    }
 
-/**
-  * @brief Callback for handling CAN bus-off events.
-  *        Turns on the red LED to indicate a bus-off error.
-  * @param  None
-  * @retval None
-  */
-static void App_BusOffNotification(void)
-{
-    MID_TurnOnLed(LED_RED);
+    if (MID_CheckCommingMessageEvent(RX_CONFIRM_DATA_MB) == CAN_MSG_RECEIVED)
+    {
+          MID_ClearMessageCommingEvent(RX_CONFIRM_DATA_MB);
+    }
+
+    if (MID_CheckCommingMessageEvent(RX_PING_MSG_MB) == CAN_MSG_RECEIVED)
+    {
+          MID_CAN_ReceiveMessage(RX_PING_MSG_MB, &Data_Receive);
+          MID_CAN_SendCANMessage(TX_CONFIRM_PING_MB, TX_MSG_CONFIRM_CONNECTION_DATA);
+          MID_ClearMessageCommingEvent(RX_PING_MSG_MB);
+    }
 }
 
 /**
