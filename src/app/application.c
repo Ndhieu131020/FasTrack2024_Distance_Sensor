@@ -118,6 +118,13 @@ static void App_ReceiveMessageNotification(void)
    {
         MID_ClearMessageCommingEvent(RX_CONFIRM_DATA_MB);
    }
+
+   if(MID_CheckCommingMessageEvent(RX_PING_MSG_MB) == CAN_MSG_RECEIVED)
+   {
+        MID_CAN_ReceiveMessage(RX_PING_MSG_MB, &Data_Receive);
+        MID_CAN_SendCANMessage(TX_CONFIRM_PING_MB, TX_MSG_CONFIRM_CONNECTION_DATA);
+        MID_ClearMessageCommingEvent(RX_PING_MSG_MB);
+   }
 }
 
 /**
