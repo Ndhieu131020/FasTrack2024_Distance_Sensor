@@ -28,6 +28,6 @@ void MID_EnableNotification(void)
 {
     NVIC_EnableIRQ(ADC0_IRQn);
     NVIC_EnableIRQ(LPIT0_Ch0_IRQn);
-    NVIC_EnableIRQ(CAN0_ORed_IRQn);
+//    NVIC_EnableIRQ(CAN0_ORed_IRQn);
     NVIC_EnableIRQ(CAN0_ORed_0_15_MB_IRQn);
 }
