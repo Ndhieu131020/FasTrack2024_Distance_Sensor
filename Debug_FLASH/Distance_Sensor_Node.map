@@ -319,8 +319,6 @@ Discarded input sections
  .bss           0x00000000        0x0 ./src/middleware/src/MID_CAN_Interface.o
  .text.MID_CAN_MailboxInit
                 0x00000000       0x10 ./src/middleware/src/MID_CAN_Interface.o
- .text.MID_CAN_RegisterBusOffNotificationCallback
-                0x00000000       0x18 ./src/middleware/src/MID_CAN_Interface.o
  .debug_macro   0x00000000      0xa60 ./src/middleware/src/MID_CAN_Interface.o
  .debug_macro   0x00000000       0x16 ./src/middleware/src/MID_CAN_Interface.o
  .debug_macro   0x00000000       0x22 ./src/middleware/src/MID_CAN_Interface.o
@@ -1161,11 +1159,9 @@ LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib
                 0x1fff8400                __data_start__ = .
  *(.data)
  *(.data*)
- .data.g_current_state
-                0x1fff8400        0x1 ./src/app/application.o
  .data.g_isActiveEntry
-                0x1fff8401        0x1 ./src/app/application.o
- *fill*         0x1fff8402        0x2 
+                0x1fff8400        0x1 ./src/app/application.o
+ *fill*         0x1fff8401        0x3 
  .data.g_AdcBase
                 0x1fff8404        0x8 ./src/drivers/src/DRV_S32K144_ADC.o
                 0x1fff8404                g_AdcBase
@@ -1223,7 +1219,7 @@ LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib
                 0x20000000                __customSection_end__ = .
                 0x00003c14                __CUSTOM_END = (__CUSTOM_ROM + (__customSection_end__ - __customSection_start__))
 
-.bss            0x20000000      0x10c
+.bss            0x20000000      0x110
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                __BSS_START = .
                 0x20000000                __bss_start__ = .
@@ -1241,31 +1237,33 @@ LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib
  *fill*         0x20000022        0x2 
  .bss.Data_Receive
                 0x20000024        0x8 ./src/app/application.o
+ .bss.g_current_state
+                0x2000002c        0x1 ./src/app/application.o
+ *fill*         0x2000002d        0x3 
  .bss.ADC_IRQ_Fp
-                0x2000002c        0x8 ./src/drivers/src/DRV_S32K144_ADC.o
+                0x20000030        0x8 ./src/drivers/src/DRV_S32K144_ADC.o
  .bss.g_flexcanHandle
-                0x20000034        0xc ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x20000034                g_flexcanHandle
+                0x20000038        0xc ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+                0x20000038                g_flexcanHandle
  .bss.LPIT_IRQ_fp
-                0x20000040       0x10 ./src/drivers/src/DRV_S32K144_LPIT.o
- .bss.handle    0x20000050       0x88 ./src/middleware/src/MID_CAN_Interface.o
+                0x20000044       0x10 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .bss.handle    0x20000054       0x88 ./src/middleware/src/MID_CAN_Interface.o
  .bss.Transmit_Message
-                0x200000d8       0x18 ./src/middleware/src/MID_CAN_Interface.o
+                0x200000dc       0x18 ./src/middleware/src/MID_CAN_Interface.o
  .bss.Receive_Message
-                0x200000f0       0x18 ./src/middleware/src/MID_CAN_Interface.o
+                0x200000f4       0x18 ./src/middleware/src/MID_CAN_Interface.o
  .bss.Sensor_State
-                0x20000108        0x1 ./src/middleware/src/MID_Sensor_Interface.o
- *fill*         0x20000109        0x1 
+                0x2000010c        0x1 ./src/middleware/src/MID_Sensor_Interface.o
+ *fill*         0x2000010d        0x1 
  .bss.ADC_Value
-                0x2000010a        0x2 ./src/middleware/src/MID_Sensor_Interface.o
+                0x2000010e        0x2 ./src/middleware/src/MID_Sensor_Interface.o
  *(COMMON)
-                0x2000010c                . = ALIGN (0x4)
-                0x2000010c                __bss_end__ = .
-                0x2000010c                __BSS_END = .
+                0x20000110                . = ALIGN (0x4)
+                0x20000110                __bss_end__ = .
+                0x20000110                __BSS_END = .
 
-.heap           0x2000010c      0x404
+.heap           0x20000110      0x400
                 0x20000110                . = ALIGN (0x8)
- *fill*         0x2000010c        0x4 
                 0x20000110                __end__ = .
                 0x20000110                __heap_start__ = .
                 [!provide]                PROVIDE (end = .)
@@ -1289,7 +1287,7 @@ LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib
  *fill*         0x20006c00      0x400 
                 0x20007000                __stack_end__ = .
                 0x20000000                __START_BSS = __BSS_START
-                0x2000010c                __END_BSS = __BSS_END
+                0x20000110                __END_BSS = __BSS_END
                 0x20007000                __SP_INIT = __StackTop
 
 .ARM.attributes
@@ -1394,7 +1392,7 @@ LOAD linker stubs
  .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
  .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtend.o
 
-.debug_line     0x00000000     0x52c9
+.debug_line     0x00000000     0x52b1
  .debug_line    0x00000000       0x93 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
  .debug_line    0x00000093      0x389 ./Project_Settings/Startup_Code/startup.o
  .debug_line    0x0000041c       0x91 ./Project_Settings/Startup_Code/startup_S32K144.o
@@ -1407,32 +1405,32 @@ LOAD linker stubs
  .debug_line    0x000026aa      0xc75 ./src/drivers/src/DRV_S32K144_MCU.o
  .debug_line    0x0000331f      0x3ca ./src/drivers/src/DRV_S32K144_NVIC.o
  .debug_line    0x000036e9      0x36f ./src/drivers/src/DRV_S32K144_PORT.o
- .debug_line    0x00003a58      0x4e6 ./src/middleware/src/MID_CAN_Interface.o
- .debug_line    0x00003f3e      0x37a ./src/middleware/src/MID_Clock_Interface.o
- .debug_line    0x000042b8      0x424 ./src/middleware/src/MID_GPIO_Interface.o
- .debug_line    0x000046dc      0x358 ./src/middleware/src/MID_Notification_Manager.o
- .debug_line    0x00004a34      0x474 ./src/middleware/src/MID_Sensor_Interface.o
- .debug_line    0x00004ea8      0x421 ./src/middleware/src/MID_Timer_Interface.o
+ .debug_line    0x00003a58      0x4ce ./src/middleware/src/MID_CAN_Interface.o
+ .debug_line    0x00003f26      0x37a ./src/middleware/src/MID_Clock_Interface.o
+ .debug_line    0x000042a0      0x424 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_line    0x000046c4      0x358 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_line    0x00004a1c      0x474 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_line    0x00004e90      0x421 ./src/middleware/src/MID_Timer_Interface.o
 
-.debug_info     0x00000000     0x7127
+.debug_info     0x00000000     0x70fb
  .debug_info    0x00000000       0x26 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
  .debug_info    0x00000026      0x443 ./Project_Settings/Startup_Code/startup.o
  .debug_info    0x00000469       0x26 ./Project_Settings/Startup_Code/startup_S32K144.o
  .debug_info    0x0000048f      0x567 ./Project_Settings/Startup_Code/system_S32K144.o
- .debug_info    0x000009f6      0x206 ./src/app/application.o
- .debug_info    0x00000bfc      0x66d ./src/drivers/src/DRV_S32K144_ADC.o
- .debug_info    0x00001269     0x12ad ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .debug_info    0x00002516      0x35f ./src/drivers/src/DRV_S32K144_GPIO.o
- .debug_info    0x00002875      0x573 ./src/drivers/src/DRV_S32K144_LPIT.o
- .debug_info    0x00002de8     0x14a9 ./src/drivers/src/DRV_S32K144_MCU.o
- .debug_info    0x00004291      0x625 ./src/drivers/src/DRV_S32K144_NVIC.o
- .debug_info    0x000048b6      0x3f5 ./src/drivers/src/DRV_S32K144_PORT.o
- .debug_info    0x00004cab      0x9ee ./src/middleware/src/MID_CAN_Interface.o
- .debug_info    0x00005699      0x8da ./src/middleware/src/MID_Clock_Interface.o
- .debug_info    0x00005f73      0x515 ./src/middleware/src/MID_GPIO_Interface.o
- .debug_info    0x00006488      0x2e4 ./src/middleware/src/MID_Notification_Manager.o
- .debug_info    0x0000676c      0x60a ./src/middleware/src/MID_Sensor_Interface.o
- .debug_info    0x00006d76      0x3b1 ./src/middleware/src/MID_Timer_Interface.o
+ .debug_info    0x000009f6      0x200 ./src/app/application.o
+ .debug_info    0x00000bf6      0x66d ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_info    0x00001263     0x12ad ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_info    0x00002510      0x35f ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_info    0x0000286f      0x573 ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_info    0x00002de2     0x14a9 ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_info    0x0000428b      0x625 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_info    0x000048b0      0x3f5 ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_info    0x00004ca5      0x9c8 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_info    0x0000566d      0x8da ./src/middleware/src/MID_Clock_Interface.o
+ .debug_info    0x00005f47      0x515 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_info    0x0000645c      0x2e4 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_info    0x00006740      0x60a ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_info    0x00006d4a      0x3b1 ./src/middleware/src/MID_Timer_Interface.o
 
 .debug_abbrev   0x00000000     0x1665
  .debug_abbrev  0x00000000       0x14 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
@@ -1454,7 +1452,7 @@ LOAD linker stubs
  .debug_abbrev  0x000013d8      0x180 ./src/middleware/src/MID_Sensor_Interface.o
  .debug_abbrev  0x00001558      0x10d ./src/middleware/src/MID_Timer_Interface.o
 
-.debug_str      0x00000000    0x661f6
+.debug_str      0x00000000    0x661c5
  .debug_str     0x00000000       0xb9 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
  .debug_str     0x000000b9    0x61a7f ./Project_Settings/Startup_Code/startup.o
                               0x61c0f (size before relaxing)
@@ -1462,36 +1460,36 @@ LOAD linker stubs
                                  0x81 (size before relaxing)
  .debug_str     0x00061b6b      0x1f3 ./Project_Settings/Startup_Code/system_S32K144.o
                               0x61a80 (size before relaxing)
- .debug_str     0x00061d5e      0x4ad ./src/app/application.o
-                               0x4168 (size before relaxing)
- .debug_str     0x0006220b      0x8fb ./src/drivers/src/DRV_S32K144_ADC.o
+ .debug_str     0x00061d5e      0x4a7 ./src/app/application.o
+                               0x415d (size before relaxing)
+ .debug_str     0x00062205      0x8fb ./src/drivers/src/DRV_S32K144_ADC.o
                               0x5713a (size before relaxing)
- .debug_str     0x00062b06      0xd65 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
+ .debug_str     0x00062b00      0xd65 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
                               0x5756a (size before relaxing)
- .debug_str     0x0006386b      0x169 ./src/drivers/src/DRV_S32K144_GPIO.o
+ .debug_str     0x00063865      0x169 ./src/drivers/src/DRV_S32K144_GPIO.o
                               0x56922 (size before relaxing)
- .debug_str     0x000639d4      0x2be ./src/drivers/src/DRV_S32K144_LPIT.o
+ .debug_str     0x000639ce      0x2be ./src/drivers/src/DRV_S32K144_LPIT.o
                               0x56dee (size before relaxing)
- .debug_str     0x00063c92     0x12de ./src/drivers/src/DRV_S32K144_MCU.o
+ .debug_str     0x00063c8c     0x12de ./src/drivers/src/DRV_S32K144_MCU.o
                               0x62dff (size before relaxing)
- .debug_str     0x00064f70      0x786 ./src/drivers/src/DRV_S32K144_NVIC.o
+ .debug_str     0x00064f6a      0x786 ./src/drivers/src/DRV_S32K144_NVIC.o
                               0x56f98 (size before relaxing)
- .debug_str     0x000656f6      0x2bb ./src/drivers/src/DRV_S32K144_PORT.o
+ .debug_str     0x000656f0      0x2bb ./src/drivers/src/DRV_S32K144_PORT.o
                               0x56aa2 (size before relaxing)
- .debug_str     0x000659b1      0x435 ./src/middleware/src/MID_CAN_Interface.o
-                              0x626dc (size before relaxing)
- .debug_str     0x00065de6       0x9b ./src/middleware/src/MID_Clock_Interface.o
+ .debug_str     0x000659ab      0x40a ./src/middleware/src/MID_CAN_Interface.o
+                              0x626b1 (size before relaxing)
+ .debug_str     0x00065db5       0x9b ./src/middleware/src/MID_Clock_Interface.o
                               0x622e6 (size before relaxing)
- .debug_str     0x00065e81       0xdc ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_str     0x00065e50       0xdc ./src/middleware/src/MID_GPIO_Interface.o
                               0x56cc8 (size before relaxing)
- .debug_str     0x00065f5d       0x48 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_str     0x00065f2c       0x48 ./src/middleware/src/MID_Notification_Manager.o
                               0x56e85 (size before relaxing)
- .debug_str     0x00065fa5      0x187 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_str     0x00065f74      0x187 ./src/middleware/src/MID_Sensor_Interface.o
                               0x57539 (size before relaxing)
- .debug_str     0x0006612c       0xca ./src/middleware/src/MID_Timer_Interface.o
+ .debug_str     0x000660fb       0xca ./src/middleware/src/MID_Timer_Interface.o
                               0x620e2 (size before relaxing)
 
-.debug_aranges  0x00000000      0x650
+.debug_aranges  0x00000000      0x648
  .debug_aranges
                 0x00000000       0x20 ./Project_Settings/Startup_Code/startup.o
  .debug_aranges
@@ -1515,19 +1513,19 @@ LOAD linker stubs
  .debug_aranges
                 0x00000490       0x38 ./src/drivers/src/DRV_S32K144_PORT.o
  .debug_aranges
-                0x000004c8       0x78 ./src/middleware/src/MID_CAN_Interface.o
+                0x000004c8       0x70 ./src/middleware/src/MID_CAN_Interface.o
  .debug_aranges
-                0x00000540       0x20 ./src/middleware/src/MID_Clock_Interface.o
+                0x00000538       0x20 ./src/middleware/src/MID_Clock_Interface.o
  .debug_aranges
-                0x00000560       0x38 ./src/middleware/src/MID_GPIO_Interface.o
+                0x00000558       0x38 ./src/middleware/src/MID_GPIO_Interface.o
  .debug_aranges
-                0x00000598       0x20 ./src/middleware/src/MID_Notification_Manager.o
+                0x00000590       0x20 ./src/middleware/src/MID_Notification_Manager.o
  .debug_aranges
-                0x000005b8       0x60 ./src/middleware/src/MID_Sensor_Interface.o
+                0x000005b0       0x60 ./src/middleware/src/MID_Sensor_Interface.o
  .debug_aranges
-                0x00000618       0x38 ./src/middleware/src/MID_Timer_Interface.o
+                0x00000610       0x38 ./src/middleware/src/MID_Timer_Interface.o
 
-.debug_ranges   0x00000000      0x530
+.debug_ranges   0x00000000      0x528
  .debug_ranges  0x00000000       0x10 ./Project_Settings/Startup_Code/startup.o
  .debug_ranges  0x00000010       0x20 ./Project_Settings/Startup_Code/system_S32K144.o
  .debug_ranges  0x00000030       0x28 ./src/app/application.o
@@ -1538,12 +1536,12 @@ LOAD linker stubs
  .debug_ranges  0x00000290      0x110 ./src/drivers/src/DRV_S32K144_MCU.o
  .debug_ranges  0x000003a0       0x40 ./src/drivers/src/DRV_S32K144_NVIC.o
  .debug_ranges  0x000003e0       0x28 ./src/drivers/src/DRV_S32K144_PORT.o
- .debug_ranges  0x00000408       0x68 ./src/middleware/src/MID_CAN_Interface.o
- .debug_ranges  0x00000470       0x10 ./src/middleware/src/MID_Clock_Interface.o
- .debug_ranges  0x00000480       0x28 ./src/middleware/src/MID_GPIO_Interface.o
- .debug_ranges  0x000004a8       0x10 ./src/middleware/src/MID_Notification_Manager.o
- .debug_ranges  0x000004b8       0x50 ./src/middleware/src/MID_Sensor_Interface.o
- .debug_ranges  0x00000508       0x28 ./src/middleware/src/MID_Timer_Interface.o
+ .debug_ranges  0x00000408       0x60 ./src/middleware/src/MID_CAN_Interface.o
+ .debug_ranges  0x00000468       0x10 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_ranges  0x00000478       0x28 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_ranges  0x000004a0       0x10 ./src/middleware/src/MID_Notification_Manager.o
+ .debug_ranges  0x000004b0       0x50 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_ranges  0x00000500       0x28 ./src/middleware/src/MID_Timer_Interface.o
 
 .debug_macro    0x00000000    0x1bcad
  .debug_macro   0x00000000       0xb5 ./Project_Settings/Startup_Code/startup.o
@@ -1589,7 +1587,7 @@ LOAD linker stubs
  .debug_macro   0x0001bbc5       0x16 ./src/middleware/src/MID_Sensor_Interface.o
  .debug_macro   0x0001bbdb       0xd2 ./src/middleware/src/MID_Timer_Interface.o
 
-.debug_frame    0x00000000     0x165c
+.debug_frame    0x00000000     0x1638
  .debug_frame   0x00000000       0x38 ./Project_Settings/Startup_Code/startup.o
  .debug_frame   0x00000038       0x80 ./Project_Settings/Startup_Code/system_S32K144.o
  .debug_frame   0x000000b8       0x80 ./src/app/application.o
@@ -1600,9 +1598,9 @@ LOAD linker stubs
  .debug_frame   0x00000b14      0x4fc ./src/drivers/src/DRV_S32K144_MCU.o
  .debug_frame   0x00001010      0x128 ./src/drivers/src/DRV_S32K144_NVIC.o
  .debug_frame   0x00001138       0xac ./src/drivers/src/DRV_S32K144_PORT.o
- .debug_frame   0x000011e4      0x1a0 ./src/middleware/src/MID_CAN_Interface.o
- .debug_frame   0x00001384       0x38 ./src/middleware/src/MID_Clock_Interface.o
- .debug_frame   0x000013bc       0xa0 ./src/middleware/src/MID_GPIO_Interface.o
- .debug_frame   0x0000145c       0x2c ./src/middleware/src/MID_Notification_Manager.o
- .debug_frame   0x00001488      0x144 ./src/middleware/src/MID_Sensor_Interface.o
- .debug_frame   0x000015cc       0x90 ./src/middleware/src/MID_Timer_Interface.o
+ .debug_frame   0x000011e4      0x17c ./src/middleware/src/MID_CAN_Interface.o
+ .debug_frame   0x00001360       0x38 ./src/middleware/src/MID_Clock_Interface.o
+ .debug_frame   0x00001398       0xa0 ./src/middleware/src/MID_GPIO_Interface.o
+ .debug_frame   0x00001438       0x2c ./src/middleware/src/MID_Notification_Manager.o
+ .debug_frame   0x00001464      0x144 ./src/middleware/src/MID_Sensor_Interface.o
+ .debug_frame   0x000015a8       0x90 ./src/middleware/src/MID_Timer_Interface.o
