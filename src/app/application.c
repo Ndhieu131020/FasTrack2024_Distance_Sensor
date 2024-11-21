@@ -26,7 +26,6 @@
 
 typedef enum
 {
-    STATE_IDLE,
     STATE_ACTIVE,
     STATE_STOP
 } State_Type;
@@ -51,7 +50,7 @@ uint16_t Delta            = 0U;
 static Data_Typedef Data_Receive;
 
 /* The current state of the application. */
-static volatile State_Type g_current_state = STATE_IDLE;
+static volatile State_Type g_current_state = STATE_ACTIVE;
 
 /* Flag indicating whether this is the first entry into the active state */
 static bool g_isActiveEntry = true;
@@ -137,7 +136,6 @@ static void App_ReceiveMessageNotification(void)
           MID_CAN_ReceiveMessage(RX_CONNECTION_MB, &Data_Receive);
           MID_CAN_SendCANMessage(TX_CONFIRM_CONNECTION_MB, TX_MSG_CONFIRM_CONNECTION_DATA);
           MID_ClearMessageCommingEvent(RX_CONNECTION_MB);
-          g_current_state = STATE_ACTIVE;
     }
 
     if (MID_CheckCommingMessageEvent(RX_STOPOPR_MB) == CAN_MSG_RECEIVED)
