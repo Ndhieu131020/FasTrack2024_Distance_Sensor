@@ -144,11 +144,6 @@ void MID_CAN_RegisterRxNotificationCallback(void (*cb_ptr)(void))
     DRV_FLEXCAN_RegisterMbCallback(FLEXCAN_INSTANCE, cb_ptr);
 }
 
-void MID_CAN_RegisterBusOffNotificationCallback(void (*cb_ptr)(void))
-{
-    DRV_FLEXCAN_RegisterBusOffCallback(FLEXCAN_INSTANCE, cb_ptr);
-}
-
 void MID_CAN_ReceiveMessage(uint8_t mbIdx, Data_Typedef *data)
 {
     DRV_FLEXCAN_ReceiveInt(FLEXCAN_INSTANCE, mbIdx, &Receive_Message);

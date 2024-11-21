@@ -85,8 +85,6 @@ void MID_CAN_MailboxInit(void);
 
 void MID_CAN_RegisterRxNotificationCallback(void (*cb_ptr)(void));
 
-void MID_CAN_RegisterBusOffNotificationCallback(void (*cb_ptr)(void));
-
 void MID_CAN_ReceiveMessage(uint8_t mbIdx, Data_Typedef *data);
 
 void MID_CAN_SendCANMessage(uint8_t Tx_Mb, uint16_t Data);

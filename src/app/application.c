@@ -50,8 +50,15 @@ uint16_t Delta            = 0U;
 /* Structure to save received CAN data */
 static Data_Typedef Data_Receive;
 
+<<<<<<< HEAD
 static volatile State_Type g_current_state = STATE_ACTIVE;
 
+=======
+/* The current state of the application. */
+static volatile State_Type g_current_state = STATE_IDLE;
+
+/* Flag indicating whether this is the first entry into the active state */
+>>>>>>> 6153fa304715bcb70a1d6f827a68be8daf95f4e5
 static bool g_isActiveEntry = true;
 
 /*******************************************************************************
@@ -77,7 +84,6 @@ int main(void)
     MID_Timer_RegisterNotificationCallback(&App_TriggerSensor_Notification);
     MID_ADC_RegisterNotificationCallback(&App_Sensor_Notification);
     MID_CAN_RegisterRxNotificationCallback(&App_ReceiveMessageNotification);
-//    MID_CAN_RegisterBusOffNotificationCallback(&App_BusOffNotification);
 
     /* Enable notifications and start periodic timer */
     MID_EnableNotification();
@@ -131,6 +137,7 @@ int main(void)
   */
 static void App_ReceiveMessageNotification(void)
 {
+<<<<<<< HEAD
    if(MID_CheckCommingMessageEvent(RX_CONNECTION_MB) == CAN_MSG_RECEIVED)
    {
         MID_CAN_ReceiveMessage(RX_CONNECTION_MB, &Data_Receive);
@@ -158,20 +165,53 @@ static void App_ReceiveMessageNotification(void)
 
         MID_ClearMessageCommingEvent(RX_STOPOPR_MB);
    }
+=======
+    if (MID_CheckCommingMessageEvent(RX_CONNECTION_MB) == CAN_MSG_RECEIVED)
+    {
+          MID_CAN_ReceiveMessage(RX_CONNECTION_MB, &Data_Receive);
+          MID_CAN_SendCANMessage(TX_CONFIRM_CONNECTION_MB, TX_MSG_CONFIRM_CONNECTION_DATA);
+          MID_ClearMessageCommingEvent(RX_CONNECTION_MB);
+          g_current_state = STATE_ACTIVE;
+    }
 
-   if(MID_CheckCommingMessageEvent(RX_CONFIRM_DATA_MB) == CAN_MSG_RECEIVED)
-   {
-        MID_ClearMessageCommingEvent(RX_CONFIRM_DATA_MB);
-   }
+    if (MID_CheckCommingMessageEvent(RX_STOPOPR_MB) == CAN_MSG_RECEIVED)
+    {
+          MID_CAN_ReceiveMessage(RX_STOPOPR_MB, &Data_Receive);
+          MID_CAN_SendCANMessage(TX_CONFIRM_STOPOPR_MB, TX_MSG_CONFIRM_CONNECTION_DATA);
+>>>>>>> 6153fa304715bcb70a1d6f827a68be8daf95f4e5
 
-   if(MID_CheckCommingMessageEvent(RX_PING_MSG_MB) == CAN_MSG_RECEIVED)
-   {
-        MID_CAN_ReceiveMessage(RX_PING_MSG_MB, &Data_Receive);
-        MID_CAN_SendCANMessage(TX_CONFIRM_PING_MB, TX_MSG_CONFIRM_CONNECTION_DATA);
-        MID_ClearMessageCommingEvent(RX_PING_MSG_MB);
-   }
+          if (Data_Receive.Data == RX_MSG_STOP_OPR_DATA)
+          {
+              g_current_state = STATE_STOP;
+          }
+          else if (Data_Receive.Data == RX_MSG_RESUME_OPR_DATA)
+          {
+              g_current_state = STATE_ACTIVE;
+          }
+          else
+          {
+              /* Do nothing */
+          }
+
+          MID_ClearMessageCommingEvent(RX_STOPOPR_MB);
+    }
+
+<<<<<<< HEAD
+=======
+    if (MID_CheckCommingMessageEvent(RX_CONFIRM_DATA_MB) == CAN_MSG_RECEIVED)
+    {
+          MID_ClearMessageCommingEvent(RX_CONFIRM_DATA_MB);
+    }
+
+    if (MID_CheckCommingMessageEvent(RX_PING_MSG_MB) == CAN_MSG_RECEIVED)
+    {
+          MID_CAN_ReceiveMessage(RX_PING_MSG_MB, &Data_Receive);
+          MID_CAN_SendCANMessage(TX_CONFIRM_PING_MB, TX_MSG_CONFIRM_CONNECTION_DATA);
+          MID_ClearMessageCommingEvent(RX_PING_MSG_MB);
+    }
 }
 
+>>>>>>> 6153fa304715bcb70a1d6f827a68be8daf95f4e5
 /**
   * @brief Callback triggered by the timer to initiate sensor read process.
   *        Sets the sensor state to BUSY and starts the read process.
