@@ -50,15 +50,10 @@ uint16_t Delta            = 0U;
 /* Structure to save received CAN data */
 static Data_Typedef Data_Receive;
 
-<<<<<<< HEAD
-static volatile State_Type g_current_state = STATE_ACTIVE;
-
-=======
 /* The current state of the application. */
 static volatile State_Type g_current_state = STATE_IDLE;
 
 /* Flag indicating whether this is the first entry into the active state */
->>>>>>> 6153fa304715bcb70a1d6f827a68be8daf95f4e5
 static bool g_isActiveEntry = true;
 
 /*******************************************************************************
