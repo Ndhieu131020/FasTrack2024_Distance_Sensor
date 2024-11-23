@@ -567,11 +567,7 @@ LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib
  .FlashConfig   0x00000400       0x10 ./Project_Settings/Startup_Code/startup_S32K144.o
                 0x00000410                . = ALIGN (0x4)
 
-<<<<<<< HEAD
 .text           0x00000410     0x3200
-=======
-.text           0x00000410     0x3210
->>>>>>> Test
                 0x00000410                . = ALIGN (0x4)
  *(.text)
  .text          0x00000410       0x88 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
@@ -711,7 +707,6 @@ LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib
  .text.main     0x000006d8       0xf0 ./src/app/application.o
                 0x000006d8                main
  .text.App_ReceiveMessageNotification
-<<<<<<< HEAD
                 0x000007c8       0xa0 ./src/app/application.o
  .text.App_TriggerSensor_Notification
                 0x00000868       0x12 ./src/app/application.o
@@ -1089,391 +1084,10 @@ LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib
 
 .iplt           0x00003610        0x0
  .iplt          0x00003610        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
-=======
-                0x000007c8       0xa8 ./src/app/application.o
- .text.App_TriggerSensor_Notification
-                0x00000870       0x12 ./src/app/application.o
- .text.App_Sensor_Notification
-                0x00000882        0xe ./src/app/application.o
- .text.ADC_RegisterIRQHandlerCallback
-                0x00000890       0x2c ./src/drivers/src/DRV_S32K144_ADC.o
-                0x00000890                ADC_RegisterIRQHandlerCallback
- .text.ADC0_IRQHandler
-                0x000008bc       0x14 ./src/drivers/src/DRV_S32K144_ADC.o
-                0x000008bc                ADC0_IRQHandler
- .text.ADC1_IRQHandler
-                0x000008d0       0x14 ./src/drivers/src/DRV_S32K144_ADC.o
-                0x000008d0                ADC1_IRQHandler
- .text.DRV_ADC_Init
-                0x000008e4      0x104 ./src/drivers/src/DRV_S32K144_ADC.o
-                0x000008e4                DRV_ADC_Init
- .text.DRV_ADC_SetInputChannel
-                0x000009e8       0x78 ./src/drivers/src/DRV_S32K144_ADC.o
-                0x000009e8                DRV_ADC_SetInputChannel
- .text.DRV_ADC_SetSoftTrigChannel
-                0x00000a60       0x26 ./src/drivers/src/DRV_S32K144_ADC.o
-                0x00000a60                DRV_ADC_SetSoftTrigChannel
- *fill*         0x00000a86        0x2 
- .text.DRV_ADC_ClearITFlag
-                0x00000a88       0x34 ./src/drivers/src/DRV_S32K144_ADC.o
-                0x00000a88                DRV_ADC_ClearITFlag
- .text.DRV_ADC_GetSoftTriggChannelResult
-                0x00000abc       0x28 ./src/drivers/src/DRV_S32K144_ADC.o
-                0x00000abc                DRV_ADC_GetSoftTriggChannelResult
- .text.DRV_ADC_SoftwareTriggerConversion
-                0x00000ae4       0x48 ./src/drivers/src/DRV_S32K144_ADC.o
-                0x00000ae4                DRV_ADC_SoftwareTriggerConversion
- .text.FLEXCAN_BitrateToTimeSeg
-                0x00000b2c      0x200 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.FLEXCAN_GetFreezeMode
-                0x00000d2c       0x38 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.FLEXCAN_EnterFreezeMode
-                0x00000d64       0x50 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.FLEXCAN_ExitFreezeMode
-                0x00000db4       0x4c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.FLEXCAN_SetBitrate
-                0x00000e00       0x98 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.FLEXCAN_EnableModule
-                0x00000e98       0x30 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.FLEXCAN_DisableModule
-                0x00000ec8       0x30 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.FLEXCAN_SelectClockSource
-                0x00000ef8       0x50 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.FLEXCAN_GetMaxMbNum
-                0x00000f48       0x5c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.FLEXCAN_ClearRAM
-                0x00000fa4       0x84 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.FLEXCAN_InitMb
-                0x00001028       0x84 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.FLEXCAN_ConfigRxMaskType
-                0x000010ac       0x74 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.FLEXCAN_SetOperationModes
-                0x00001120       0xa4 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.DRV_FLEXCAN_EnableMbInt
-                0x000011c4       0x40 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x000011c4                DRV_FLEXCAN_EnableMbInt
- .text.DRV_FLEXCAN_Init
-                0x00001204      0x12c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x00001204                DRV_FLEXCAN_Init
- .text.DRV_FLEXCAN_SetRxMbGlobalMask
-                0x00001330       0x78 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x00001330                DRV_FLEXCAN_SetRxMbGlobalMask
- .text.DRV_FLEXCAN_SetRxMbIndividualMask
-                0x000013a8       0x8c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x000013a8                DRV_FLEXCAN_SetRxMbIndividualMask
- .text.DRV_FLEXCAN_GetMbIntFlag
-                0x00001434       0x4c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x00001434                DRV_FLEXCAN_GetMbIntFlag
- .text.DRV_FLEXCAN_ClearMbIntFlag
-                0x00001480       0x3c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x00001480                DRV_FLEXCAN_ClearMbIntFlag
- .text.DRV_FLEXCAN_ConfigRxMb
-                0x000014bc       0xec ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x000014bc                DRV_FLEXCAN_ConfigRxMb
- .text.DRV_FLEXCAN_ReceiveInt
-                0x000015a8       0xd4 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x000015a8                DRV_FLEXCAN_ReceiveInt
- .text.FLEXCAN_Mb_IRQHandler
-                0x0000167c       0x34 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.DRV_FLEXCAN_ConfigTxMb
-                0x000016b0       0xec ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x000016b0                DRV_FLEXCAN_ConfigTxMb
- .text.DRV_FLEXCAN_Transmit
-                0x0000179c       0x78 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x0000179c                DRV_FLEXCAN_Transmit
- .text.FLEXCAN_ClearBusOffIntFlag
-                0x00001814       0x34 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.FLEXCAN_BusOff_IRQHandler
-                0x00001848       0x3c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .text.DRV_FLEXCAN_RegisterMbCallback
-                0x00001884       0x2c ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x00001884                DRV_FLEXCAN_RegisterMbCallback
- .text.CAN0_ORed_0_15_MB_IRQHandler
-                0x000018b0        0xe ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x000018b0                CAN0_ORed_0_15_MB_IRQHandler
- .text.CAN0_ORed_16_31_MB_IRQHandler
-                0x000018be        0xe ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x000018be                CAN0_ORed_16_31_MB_IRQHandler
- .text.CAN0_ORed_IRQHandler
-                0x000018cc        0xe ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x000018cc                CAN0_ORed_IRQHandler
- .text.CAN1_ORed_0_15_MB_IRQHandler
-                0x000018da        0xe ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x000018da                CAN1_ORed_0_15_MB_IRQHandler
- .text.CAN1_ORed_IRQHandler
-                0x000018e8        0xe ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x000018e8                CAN1_ORed_IRQHandler
- .text.CAN2_ORed_0_15_MB_IRQHandler
-                0x000018f6        0xe ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x000018f6                CAN2_ORed_0_15_MB_IRQHandler
- .text.CAN2_ORed_IRQHandler
-                0x00001904        0xe ./src/drivers/src/DRV_S32K144_FLEXCAN.o
-                0x00001904                CAN2_ORed_IRQHandler
- *fill*         0x00001912        0x2 
- .text.DRV_GPIO_SetPinDirection
-                0x00001914       0x58 ./src/drivers/src/DRV_S32K144_GPIO.o
-                0x00001914                DRV_GPIO_SetPinDirection
- .text.DRV_GPIO_SetPins
-                0x0000196c       0x3c ./src/drivers/src/DRV_S32K144_GPIO.o
-                0x0000196c                DRV_GPIO_SetPins
- .text.DRV_GPIO_ClearPins
-                0x000019a8       0x3c ./src/drivers/src/DRV_S32K144_GPIO.o
-                0x000019a8                DRV_GPIO_ClearPins
- .text.DRV_LPIT_EnableModule
-                0x000019e4       0x30 ./src/drivers/src/DRV_S32K144_LPIT.o
-                0x000019e4                DRV_LPIT_EnableModule
- .text.DRV_LPIT_Init
-                0x00001a14       0xdc ./src/drivers/src/DRV_S32K144_LPIT.o
-                0x00001a14                DRV_LPIT_Init
- .text.DRV_LPIT_SetReloadValue
-                0x00001af0       0x38 ./src/drivers/src/DRV_S32K144_LPIT.o
-                0x00001af0                DRV_LPIT_SetReloadValue
- .text.DRV_LPIT_StartTimerChannel
-                0x00001b28       0x3c ./src/drivers/src/DRV_S32K144_LPIT.o
-                0x00001b28                DRV_LPIT_StartTimerChannel
- .text.DRV_LPIT_StopTimerChannel
-                0x00001b64       0x3c ./src/drivers/src/DRV_S32K144_LPIT.o
-                0x00001b64                DRV_LPIT_StopTimerChannel
- .text.DRV_LPIT0_RegisterIntCallback
-                0x00001ba0       0x2c ./src/drivers/src/DRV_S32K144_LPIT.o
-                0x00001ba0                DRV_LPIT0_RegisterIntCallback
- .text.LPIT0_Ch0_IRQHandler
-                0x00001bcc       0x24 ./src/drivers/src/DRV_S32K144_LPIT.o
-                0x00001bcc                LPIT0_Ch0_IRQHandler
- .text.LPIT0_Ch1_IRQHandler
-                0x00001bf0       0x24 ./src/drivers/src/DRV_S32K144_LPIT.o
-                0x00001bf0                LPIT0_Ch1_IRQHandler
- .text.LPIT0_Ch2_IRQHandler
-                0x00001c14       0x24 ./src/drivers/src/DRV_S32K144_LPIT.o
-                0x00001c14                LPIT0_Ch2_IRQHandler
- .text.LPIT0_Ch3_IRQHandler
-                0x00001c38       0x24 ./src/drivers/src/DRV_S32K144_LPIT.o
-                0x00001c38                LPIT0_Ch3_IRQHandler
- .text.DRV_Clock_Init
-                0x00001c5c       0x3e ./src/drivers/src/DRV_S32K144_MCU.o
-                0x00001c5c                DRV_Clock_Init
- .text.DRV_SCG_Configuration
-                0x00001c9a       0x5e ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_SIRC_Config
-                0x00001cf8       0x54 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_SIRC_AsyncConfig
-                0x00001d4c       0x44 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_SIRC_SetConfiguration
-                0x00001d90       0x30 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_SIRC_Control
-                0x00001dc0       0x58 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_FIRC_Config
-                0x00001e18       0x36 ./src/drivers/src/DRV_S32K144_MCU.o
- *fill*         0x00001e4e        0x2 
- .text.DRV_SCG_FIRC_AsyncConfig
-                0x00001e50       0x44 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_FIRC_Control
-                0x00001e94       0x4c ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_SOSC_Config
-                0x00001ee0       0x60 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_SOSC_AsyncConfig
-                0x00001f40       0x44 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_SOSC_SetConfiguration
-                0x00001f84       0x50 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_SOSC_Control
-                0x00001fd4       0xa8 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_SPLL_Config
-                0x0000207c       0x5c ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_SPLL_AsyncConfig
-                0x000020d8       0x44 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_SPLL_SetConfiguration
-                0x0000211c       0x48 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_SPLL_Control
-                0x00002164       0xa8 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_SystemClockConfig
-                0x0000220c       0xf8 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_SCG_SetRunClockControl
-                0x00002304       0x50 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_PCC_Configuration
-                0x00002354       0xa8 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_PCC_SetPeripheralClockControl
-                0x000023fc       0x58 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_Clock_GetFrequency
-                0x00002454       0x4a ./src/drivers/src/DRV_S32K144_MCU.o
-                0x00002454                DRV_Clock_GetFrequency
- *fill*         0x0000249e        0x2 
- .text.DRV_SCG_GetClockFrequency
-                0x000024a0      0x124 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_Clock_GetSourceFrequency
-                0x000025c4       0x64 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_Clock_GetSysClockFrequency
-                0x00002628       0xc8 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_Clock_GetSOSCFrequency
-                0x000026f0       0x38 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_Clock_GetSIRCFrequency
-                0x00002728       0x50 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_Clock_GetFIRCFrequency
-                0x00002778       0x38 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_Clock_GetSPLLFrequency
-                0x000027b0       0x6c ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_Clock_GetSysAsyncFrequency
-                0x0000281c      0x148 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_PCC_GetClockFrequency
-                0x00002964      0x118 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_PCC_CheckClock
-                0x00002a7c       0x6c ./src/drivers/src/DRV_S32K144_MCU.o
- .text.DRV_PCC_GetPeripheralClock
-                0x00002ae8       0xb0 ./src/drivers/src/DRV_S32K144_MCU.o
- .text.NVIC_EnableIRQ
-                0x00002b98       0x5c ./src/drivers/src/DRV_S32K144_NVIC.o
-                0x00002b98                NVIC_EnableIRQ
- .text.DRV_PORT_Init
-                0x00002bf4       0x50 ./src/drivers/src/DRV_S32K144_PORT.o
-                0x00002bf4                DRV_PORT_Init
- .text.DRV_PORT_SetMux
-                0x00002c44       0x38 ./src/drivers/src/DRV_S32K144_PORT.o
- .text.DRV_PORT_SetInterrupt
-                0x00002c7c       0x42 ./src/drivers/src/DRV_S32K144_PORT.o
- .text.DRV_PORT_SetPull
-                0x00002cbe       0x9a ./src/drivers/src/DRV_S32K144_PORT.o
- .text.FLEXCAN_Pin_Init
-                0x00002d58       0x4e ./src/middleware/src/MID_CAN_Interface.o
- *fill*         0x00002da6        0x2 
- .text.FLEXCAN_ParamConfig
-                0x00002da8       0x64 ./src/middleware/src/MID_CAN_Interface.o
- .text.FLEXCAN_Tx_Mb_Init
-                0x00002e0c       0x3c ./src/middleware/src/MID_CAN_Interface.o
- .text.FLEXCAN_Rx_Mb_Init
-                0x00002e48       0xa0 ./src/middleware/src/MID_CAN_Interface.o
- .text.MID_CAN_Init
-                0x00002ee8       0x18 ./src/middleware/src/MID_CAN_Interface.o
-                0x00002ee8                MID_CAN_Init
- .text.MID_CAN_RegisterRxNotificationCallback
-                0x00002f00       0x18 ./src/middleware/src/MID_CAN_Interface.o
-                0x00002f00                MID_CAN_RegisterRxNotificationCallback
- .text.MID_CAN_ReceiveMessage
-                0x00002f18       0x34 ./src/middleware/src/MID_CAN_Interface.o
-                0x00002f18                MID_CAN_ReceiveMessage
- .text.MID_CAN_SendCANMessage
-                0x00002f4c       0x30 ./src/middleware/src/MID_CAN_Interface.o
-                0x00002f4c                MID_CAN_SendCANMessage
- .text.MID_ClearMessageCommingEvent
-                0x00002f7c       0x1c ./src/middleware/src/MID_CAN_Interface.o
-                0x00002f7c                MID_ClearMessageCommingEvent
- .text.MID_CheckCommingMessageEvent
-                0x00002f98       0x1e ./src/middleware/src/MID_CAN_Interface.o
-                0x00002f98                MID_CheckCommingMessageEvent
- *fill*         0x00002fb6        0x2 
- .text.MID_Clock_Init
-                0x00002fb8       0xac ./src/middleware/src/MID_Clock_Interface.o
-                0x00002fb8                MID_Clock_Init
- .text.MID_Led_Init
-                0x00003064       0x74 ./src/middleware/src/MID_GPIO_Interface.o
-                0x00003064                MID_Led_Init
- .text.MID_TurnOnLed
-                0x000030d8       0x60 ./src/middleware/src/MID_GPIO_Interface.o
-                0x000030d8                MID_TurnOnLed
- .text.MID_TurnOffLed
-                0x00003138       0x60 ./src/middleware/src/MID_GPIO_Interface.o
-                0x00003138                MID_TurnOffLed
- .text.MID_EnableNotification
-                0x00003198       0x20 ./src/middleware/src/MID_Notification_Manager.o
-                0x00003198                MID_EnableNotification
- .text.Pin_Init
-                0x000031b8       0x34 ./src/middleware/src/MID_Sensor_Interface.o
- .text.ADC_Init
-                0x000031ec       0x3e ./src/middleware/src/MID_Sensor_Interface.o
- .text.MID_Sensor_Init
-                0x0000322a       0x10 ./src/middleware/src/MID_Sensor_Interface.o
-                0x0000322a                MID_Sensor_Init
- *fill*         0x0000323a        0x2 
- .text.MID_Get_DataSensorState
-                0x0000323c       0x14 ./src/middleware/src/MID_Sensor_Interface.o
-                0x0000323c                MID_Get_DataSensorState
- .text.MID_Set_DataSensorState
-                0x00003250       0x2c ./src/middleware/src/MID_Sensor_Interface.o
-                0x00003250                MID_Set_DataSensorState
- .text.ConvertToDistance
-                0x0000327c       0x34 ./src/middleware/src/MID_Sensor_Interface.o
- .text.MID_Read_DistanceValue
-                0x000032b0       0x34 ./src/middleware/src/MID_Sensor_Interface.o
-                0x000032b0                MID_Read_DistanceValue
- .text.MID_Trigger_ReadProcess
-                0x000032e4       0x10 ./src/middleware/src/MID_Sensor_Interface.o
-                0x000032e4                MID_Trigger_ReadProcess
- .text.MID_ADC_RegisterNotificationCallback
-                0x000032f4       0x18 ./src/middleware/src/MID_Sensor_Interface.o
-                0x000032f4                MID_ADC_RegisterNotificationCallback
- .text.MID_Timer_Init
-                0x0000330c       0x70 ./src/middleware/src/MID_Timer_Interface.o
-                0x0000330c                MID_Timer_Init
- .text.MID_Timer_RegisterNotificationCallback
-                0x0000337c       0x18 ./src/middleware/src/MID_Timer_Interface.o
-                0x0000337c                MID_Timer_RegisterNotificationCallback
- .text.MID_Timer_StartTimer
-                0x00003394       0x10 ./src/middleware/src/MID_Timer_Interface.o
-                0x00003394                MID_Timer_StartTimer
- .text.MID_Timer_StopTimer
-                0x000033a4       0x10 ./src/middleware/src/MID_Timer_Interface.o
-                0x000033a4                MID_Timer_StopTimer
- .text.exit     0x000033b4       0x20 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
-                0x000033b4                exit
- .text.__libc_init_array
-                0x000033d4       0x48 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
-                0x000033d4                __libc_init_array
- .text.memcpy   0x0000341c       0x1c c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memcpy-stub.o)
-                0x0000341c                memcpy
- .text.memset   0x00003438       0x10 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
-                0x00003438                memset
- .text.startup.register_fini
-                0x00003448       0x14 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
- .text.__call_exitprocs
-                0x0000345c       0xa4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
-                0x0000345c                __call_exitprocs
- .text.__libc_fini_array
-                0x00003500       0x28 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
-                0x00003500                __libc_fini_array
- .text.atexit   0x00003528        0xc c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
-                0x00003528                atexit
- .text.__register_exitproc
-                0x00003534       0x64 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
-                0x00003534                __register_exitproc
- .text._exit    0x00003598        0x2 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
-                0x00003598                _exit
- *(.rodata)
- *fill*         0x0000359a        0x2 
- .rodata        0x0000359c       0x54 ./src/drivers/src/DRV_S32K144_MCU.o
- .rodata        0x000035f0       0x12 ./src/middleware/src/MID_Clock_Interface.o
- *(.rodata*)
- *fill*         0x00003602        0x2 
- .rodata._global_impure_ptr
-                0x00003604        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
-                0x00003604                _global_impure_ptr
- *(.glue_7)
- .glue_7        0x00003608        0x0 linker stubs
- *(.glue_7t)
- .glue_7t       0x00003608        0x0 linker stubs
- *(.eh_frame)
- .eh_frame      0x00003608        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
- *(.init)
- .init          0x00003608        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crti.o
-                0x00003608                _init
- .init          0x0000360c        0x8 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtn.o
- *(.fini)
- .fini          0x00003614        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crti.o
-                0x00003614                _fini
- .fini          0x00003618        0x8 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtn.o
-                0x00003620                . = ALIGN (0x4)
-
-.vfp11_veneer   0x00003620        0x0
- .vfp11_veneer  0x00003620        0x0 linker stubs
-
-.v4_bx          0x00003620        0x0
- .v4_bx         0x00003620        0x0 linker stubs
-
-.iplt           0x00003620        0x0
- .iplt          0x00003620        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
->>>>>>> Test
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-<<<<<<< HEAD
 .ARM            0x00003610        0x8
                 0x00003610                __exidx_start = .
  *(.ARM.exidx*)
@@ -1486,42 +1100,20 @@ LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib
 
 .ctors          0x00003618        0x0
                 0x00003618                __CTOR_LIST__ = .
-=======
-.ARM            0x00003620        0x8
-                0x00003620                __exidx_start = .
- *(.ARM.exidx*)
- .ARM.exidx     0x00003620        0x8 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
-                                 0x10 (size before relaxing)
-                0x00003628                __exidx_end = .
-
-.rel.dyn        0x00003628        0x0
- .rel.iplt      0x00003628        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
-
-.ctors          0x00003628        0x0
-                0x00003628                __CTOR_LIST__ = .
->>>>>>> Test
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
-<<<<<<< HEAD
                 0x00003618                __CTOR_END__ = .
 
 .dtors          0x00003618        0x0
                 0x00003618                __DTOR_LIST__ = .
-=======
-                0x00003628                __CTOR_END__ = .
-
-.dtors          0x00003628        0x0
-                0x00003628                __DTOR_LIST__ = .
->>>>>>> Test
  *crtbegin.o(.dtors)
  *crtbegin?.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-<<<<<<< HEAD
                 0x00003618                __DTOR_END__ = .
 
 .preinit_array  0x00003618        0x0
@@ -1546,32 +1138,6 @@ LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib
                 0x00003624                PROVIDE (__fini_array_end = .)
                 0x00003624                __etext = .
                 0x00003624                __DATA_ROM = .
-=======
-                0x00003628                __DTOR_END__ = .
-
-.preinit_array  0x00003628        0x0
-                0x00003628                PROVIDE (__preinit_array_start = .)
- *(.preinit_array*)
-                0x00003628                PROVIDE (__preinit_array_end = .)
-
-.init_array     0x00003628        0x8
-                0x00003628                PROVIDE (__init_array_start = .)
- *(SORT_BY_NAME(.init_array.*))
- .init_array.00000
-                0x00003628        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
- *(.init_array*)
- .init_array    0x0000362c        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
-                0x00003630                PROVIDE (__init_array_end = .)
-
-.fini_array     0x00003630        0x4
-                0x00003630                PROVIDE (__fini_array_start = .)
- *(SORT_BY_NAME(.fini_array.*))
- *(.fini_array*)
- .fini_array    0x00003630        0x4 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
-                0x00003634                PROVIDE (__fini_array_end = .)
-                0x00003634                __etext = .
-                0x00003634                __DATA_ROM = .
->>>>>>> Test
 
 .interrupts_ram
                 0x1fff8000      0x400
@@ -1587,11 +1153,7 @@ LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib
                 0x1fff8000                __VECTOR_RAM = DEFINED (__flash_vector_table__)?ORIGIN (m_interrupts):__VECTOR_RAM__
                 0x00000400                __RAM_VECTOR_TABLE_SIZE = DEFINED (__flash_vector_table__)?0x0:(__interrupts_ram_end__ - __interrupts_ram_start__)
 
-<<<<<<< HEAD
 .data           0x1fff8400      0x5f0 load address 0x00003624
-=======
-.data           0x1fff8400      0x5f0 load address 0x00003634
->>>>>>> Test
                 0x1fff8400                . = ALIGN (0x4)
                 0x1fff8400                __DATA_RAM = .
                 0x1fff8400                __data_start__ = .
@@ -1625,35 +1187,20 @@ LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib
  *(.jcr*)
                 0x1fff89f0                . = ALIGN (0x4)
                 0x1fff89f0                __data_end__ = .
-<<<<<<< HEAD
                 0x00003c14                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
                 0x00003c14                __CODE_ROM = __DATA_END
 
 .tm_clone_table
                 0x1fff89f0        0x0 load address 0x00003c14
-=======
-                0x00003c24                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
-                0x00003c24                __CODE_ROM = __DATA_END
-
-.tm_clone_table
-                0x1fff89f0        0x0 load address 0x00003c24
->>>>>>> Test
  .tm_clone_table
                 0x1fff89f0        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
  .tm_clone_table
                 0x1fff89f0        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtend.o
 
-<<<<<<< HEAD
 .igot.plt       0x1fff89f0        0x0 load address 0x00003c14
  .igot.plt      0x1fff89f0        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
 
 .code           0x1fff89f0        0x0 load address 0x00003c14
-=======
-.igot.plt       0x1fff89f0        0x0 load address 0x00003c24
- .igot.plt      0x1fff89f0        0x0 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtbegin.o
-
-.code           0x1fff89f0        0x0 load address 0x00003c24
->>>>>>> Test
                 0x1fff89f0                . = ALIGN (0x4)
                 0x1fff89f0                __CODE_RAM = .
                 0x1fff89f0                __code_start__ = .
@@ -1662,7 +1209,6 @@ LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib
                 0x1fff89f0                . = ALIGN (0x4)
                 0x1fff89f0                __code_end__ = .
                 0x1fff89f0                __code_ram_end__ = .
-<<<<<<< HEAD
                 0x00003c14                __CODE_END = (__CODE_ROM + (__code_end__ - __code_start__))
                 0x00003c14                __CUSTOM_ROM = __CODE_END
 
@@ -1672,17 +1218,6 @@ LOAD c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib
  *(.customSection)
                 0x20000000                __customSection_end__ = .
                 0x00003c14                __CUSTOM_END = (__CUSTOM_ROM + (__customSection_end__ - __customSection_start__))
-=======
-                0x00003c24                __CODE_END = (__CODE_ROM + (__code_end__ - __code_start__))
-                0x00003c24                __CUSTOM_ROM = __CODE_END
-
-.customSectionBlock
-                0x20000000        0x0 load address 0x00003c24
-                0x20000000                __customSection_start__ = .
- *(.customSection)
-                0x20000000                __customSection_end__ = .
-                0x00003c24                __CUSTOM_END = (__CUSTOM_ROM + (__customSection_end__ - __customSection_start__))
->>>>>>> Test
 
 .bss            0x20000000      0x110
                 0x20000000                . = ALIGN (0x4)
@@ -1857,16 +1392,11 @@ LOAD linker stubs
  .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
  .comment       0x00000088       0x89 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m/nofp/crtend.o
 
-<<<<<<< HEAD
 .debug_line     0x00000000     0x52b1
-=======
-.debug_line     0x00000000     0x52b3
->>>>>>> Test
  .debug_line    0x00000000       0x93 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
  .debug_line    0x00000093      0x389 ./Project_Settings/Startup_Code/startup.o
  .debug_line    0x0000041c       0x91 ./Project_Settings/Startup_Code/startup_S32K144.o
  .debug_line    0x000004ad      0x3be ./Project_Settings/Startup_Code/system_S32K144.o
-<<<<<<< HEAD
  .debug_line    0x0000086b      0x41d ./src/app/application.o
  .debug_line    0x00000c88      0x49f ./src/drivers/src/DRV_S32K144_ADC.o
  .debug_line    0x00001127      0xd11 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
@@ -1881,22 +1411,6 @@ LOAD linker stubs
  .debug_line    0x000046c4      0x358 ./src/middleware/src/MID_Notification_Manager.o
  .debug_line    0x00004a1c      0x474 ./src/middleware/src/MID_Sensor_Interface.o
  .debug_line    0x00004e90      0x421 ./src/middleware/src/MID_Timer_Interface.o
-=======
- .debug_line    0x0000086b      0x41e ./src/app/application.o
- .debug_line    0x00000c89      0x49f ./src/drivers/src/DRV_S32K144_ADC.o
- .debug_line    0x00001128      0xd11 ./src/drivers/src/DRV_S32K144_FLEXCAN.o
- .debug_line    0x00001e39      0x3c0 ./src/drivers/src/DRV_S32K144_GPIO.o
- .debug_line    0x000021f9      0x4b2 ./src/drivers/src/DRV_S32K144_LPIT.o
- .debug_line    0x000026ab      0xc75 ./src/drivers/src/DRV_S32K144_MCU.o
- .debug_line    0x00003320      0x3ca ./src/drivers/src/DRV_S32K144_NVIC.o
- .debug_line    0x000036ea      0x36f ./src/drivers/src/DRV_S32K144_PORT.o
- .debug_line    0x00003a59      0x4ce ./src/middleware/src/MID_CAN_Interface.o
- .debug_line    0x00003f27      0x37a ./src/middleware/src/MID_Clock_Interface.o
- .debug_line    0x000042a1      0x424 ./src/middleware/src/MID_GPIO_Interface.o
- .debug_line    0x000046c5      0x359 ./src/middleware/src/MID_Notification_Manager.o
- .debug_line    0x00004a1e      0x474 ./src/middleware/src/MID_Sensor_Interface.o
- .debug_line    0x00004e92      0x421 ./src/middleware/src/MID_Timer_Interface.o
->>>>>>> Test
 
 .debug_info     0x00000000     0x70fb
  .debug_info    0x00000000       0x26 c:/nxp/s32ds.3.5/s32ds/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
