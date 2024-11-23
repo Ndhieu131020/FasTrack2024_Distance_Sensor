@@ -22,7 +22,7 @@
 #define ABS(a,b)    ((a < b) ? (b - a) : (a - b))
 
 /* Threshold for triggering a CAN message when sensor value changes */
-#define CHANGE_THRESHOLD    (20U)
+#define CHANGE_THRESHOLD    (10U)
 
 typedef enum
 {
@@ -34,7 +34,6 @@ typedef enum
  * Prototypes
  ******************************************************************************/
 static void App_ReceiveMessageNotification(void);
-//static void App_BusOffNotification(void);
 static void App_TriggerSensor_Notification(void);
 static void App_Sensor_Notification(void);
 
