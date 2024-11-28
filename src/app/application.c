@@ -140,7 +140,6 @@ static void App_ReceiveMessageNotification(void)
     if (MID_CheckCommingMessageEvent(RX_STOPOPR_MB) == CAN_MSG_RECEIVED)
     {
           MID_CAN_ReceiveMessage(RX_STOPOPR_MB, &Data_Receive);
-//          MID_CAN_SendCANMessage(TX_CONFIRM_STOPOPR_MB, TX_MSG_CONFIRM_CONNECTION_DATA);
 
           if (Data_Receive.Data == RX_MSG_STOP_OPR_DATA)
           {
