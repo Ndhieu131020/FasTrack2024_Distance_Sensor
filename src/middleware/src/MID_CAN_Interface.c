@@ -97,8 +97,12 @@ static void FLEXCAN_Tx_Mb_Init(void)
     /* Initialize Tx Message buffer to send sensor data to CAN Bus */
     DRV_FLEXCAN_ConfigTxMb(FLEXCAN_INSTANCE, TX_DISTANCE_DATA_MB, &mbCfg, TX_MSG_DISTANCE_DATA_ID);
 
-    /* Initialize Tx Message buffer to send confirm connection from Forwarder to CAN Bus */
+    /* Initialize Tx Message buffer to send confirm initialize connection from Forwarder to CAN Bus */
     DRV_FLEXCAN_ConfigTxMb(FLEXCAN_INSTANCE, TX_CONFIRM_CONNECTION_MB, &mbCfg, TX_MSG_CONFIRM_CONNECTION_ID);
+
+    DRV_FLEXCAN_ConfigTxMb(FLEXCAN_INSTANCE, TX_CONFIRM_STOPOPR_MB, &mbCfg, TX_CONFIRM_STOPOPR_ID);
+
+    DRV_FLEXCAN_ConfigTxMb(FLEXCAN_INSTANCE, TX_CONFIRM_PING_MB, &mbCfg, TX_CONFIRM_PING_ID);
 }
 
 static void FLEXCAN_Rx_Mb_Init(void)
@@ -108,14 +112,17 @@ static void FLEXCAN_Rx_Mb_Init(void)
     DRV_FLEXCAN_SetRxMbIndividualMask(FLEXCAN_INSTANCE, FLEXCAN_MB_ID_STD, RX_STOPOPR_MB, FLEXCAN_INDIVIDUAL_MASK);
     DRV_FLEXCAN_SetRxMbIndividualMask(FLEXCAN_INSTANCE, FLEXCAN_MB_ID_STD, RX_CONNECTION_MB, FLEXCAN_INDIVIDUAL_MASK);
     DRV_FLEXCAN_SetRxMbIndividualMask(FLEXCAN_INSTANCE, FLEXCAN_MB_ID_STD, RX_CONFIRM_DATA_MB, FLEXCAN_INDIVIDUAL_MASK);
+    DRV_FLEXCAN_SetRxMbIndividualMask(FLEXCAN_INSTANCE, FLEXCAN_MB_ID_STD, RX_PING_MSG_MB, FLEXCAN_INDIVIDUAL_MASK);
 
     DRV_FLEXCAN_ConfigRxMb(FLEXCAN_INSTANCE, RX_STOPOPR_MB, &mbCfg, RX_MSG_STOPOPR_ID);
     DRV_FLEXCAN_ConfigRxMb(FLEXCAN_INSTANCE, RX_CONNECTION_MB, &mbCfg, RX_MSG_CONNECTION_ID);
     DRV_FLEXCAN_ConfigRxMb(FLEXCAN_INSTANCE, RX_CONFIRM_DATA_MB, &mbCfg, RX_MSG_CONFIRM_DATA_ID);
+    DRV_FLEXCAN_ConfigRxMb(FLEXCAN_INSTANCE, RX_PING_MSG_MB, &mbCfg, RX_PING_MSG_ID);
 
     DRV_FLEXCAN_EnableMbInt(FLEXCAN_INSTANCE, RX_STOPOPR_MB);
     DRV_FLEXCAN_EnableMbInt(FLEXCAN_INSTANCE, RX_CONNECTION_MB);
     DRV_FLEXCAN_EnableMbInt(FLEXCAN_INSTANCE, RX_CONFIRM_DATA_MB);
+    DRV_FLEXCAN_EnableMbInt(FLEXCAN_INSTANCE, RX_PING_MSG_MB);
 }
 
 void MID_CAN_Init(void)
@@ -135,11 +142,6 @@ void MID_CAN_MailboxInit(void)
 void MID_CAN_RegisterRxNotificationCallback(void (*cb_ptr)(void))
 {
     DRV_FLEXCAN_RegisterMbCallback(FLEXCAN_INSTANCE, cb_ptr);
-}
-
-void MID_CAN_RegisterBusOffNotificationCallback(void (*cb_ptr)(void))
-{
-    DRV_FLEXCAN_RegisterBusOffCallback(FLEXCAN_INSTANCE, cb_ptr);
 }
 
 void MID_CAN_ReceiveMessage(uint8_t mbIdx, Data_Typedef *data)

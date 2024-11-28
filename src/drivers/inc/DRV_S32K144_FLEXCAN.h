@@ -152,12 +152,6 @@ typedef struct
     uint32_t dataLength;
 } flexcan_mb_t;
 
-/*Information needed for internal handling of a given MB*/
-// typedef struct
-// {
-//     flexcan_mb_t *data; /* The FlexCAN MB structure */
-// } flexcan_mb_handle_t;
-
 /* FLEXCAN Interrupt Enable/ Disable*/
 typedef enum
 {

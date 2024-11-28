@@ -17,22 +17,55 @@
  ******************************************************************************/
 #define FLEXCAN_INSTANCE        0u
 
-#define RX_MSG_CONNECTION_ID    0xE0
-#define RX_MSG_STOPOPR_ID       0x30
-#define RX_MSG_CONFIRM_DATA_ID  0x21
-
+/** @defgroup Initialize Connection Message ID
+  * @{
+  */
+#define RX_MSG_CONNECTION_ID            0xE0
 #define TX_MSG_CONFIRM_CONNECTION_ID    0xE1
+
+/** @defgroup Ping Message ID
+  * @{
+  */
+#define RX_PING_MSG_ID       0x50
+#define TX_CONFIRM_PING_ID   0x51
+
+/** @defgroup Data ID
+  * @{
+  */
+#define TX_MSG_DISTANCE_DATA_ID   0x20
+#define RX_MSG_CONFIRM_DATA_ID    0x21
+
+/** @defgroup Stop operation Message ID
+  * @{
+  */
+#define RX_MSG_STOPOPR_ID       0x30
+#define TX_CONFIRM_STOPOPR_ID   0x31
+
+#define RX_MSG_STOP_OPR_DATA    0x10
+#define RX_MSG_RESUME_OPR_DATA  0xFF
+
+
 #define TX_MSG_CONFIRM_CONNECTION_DATA  0xFF
 
-#define TX_MSG_DISTANCE_DATA_ID       0x20
-
+/** @defgroup Allocate Tx mailboxs
+  * @{
+  */
 #define TX_DISTANCE_DATA_MB        0u
 #define TX_CONFIRM_CONNECTION_MB   1u
+#define TX_CONFIRM_STOPOPR_MB      2u
+#define TX_CONFIRM_PING_MB         3u
 
+/** @defgroup Allocate Rx mailboxs
+  * @{
+  */
 #define RX_STOPOPR_MB       4u
 #define RX_CONNECTION_MB    5u
 #define RX_CONFIRM_DATA_MB  6u
+#define RX_PING_MSG_MB      7u
 
+/** @defgroup CAN comming message state
+  * @{
+  */
 #define CAN_MSG_RECEIVED      1u
 #define CAN_MSG_NO_RECEIVED   0u
 
@@ -51,8 +84,6 @@ void MID_CAN_Init(void);
 void MID_CAN_MailboxInit(void);
 
 void MID_CAN_RegisterRxNotificationCallback(void (*cb_ptr)(void));
-
-void MID_CAN_RegisterBusOffNotificationCallback(void (*cb_ptr)(void));
 
 void MID_CAN_ReceiveMessage(uint8_t mbIdx, Data_Typedef *data);
 
