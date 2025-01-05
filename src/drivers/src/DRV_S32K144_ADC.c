@@ -219,7 +219,7 @@ uint16_t DRV_ADC_GetSoftTriggChannelResult(uint8_t instance)
     ADC_Type *ADCx = g_AdcBase[instance];
 
     /* Return ADC value */
-    return ADCx->R[0];;
+    return ADCx->R[0];
 }
 
 /**
